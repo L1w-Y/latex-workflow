@@ -1,0 +1,14 @@
+{
+  "command": "D:\\PROJECTS\\latex-workflow\\dt_pruning\\evaluate.py --policy dt --split val --stage dev --workers 1 --exp smoke --limit 1 --checkpoint checkpoints_dt/dt_best.pt",
+  "time": "2026-10-13 12:33:23",
+  "policy": "dt",
+  "checkpoint": "checkpoints_dt/dt_best.pt",
+  "target": {
+    "mode": "per_branch",
+    "value": 6.95940233313519,
+    "reward_set": "full"
+  },
+  "split": "val",
+  "stage": "dev",
+  "n_trees": 1
+}

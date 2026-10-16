@@ -1,0 +1,12 @@
+{
+  "command": "D:\\PROJECTS\\latex-workflow\\dt_pruning\\evaluate.py --policy random --split val --stage dev --exp e3_comprehensive --workers 8 --tag curve_random",
+  "time": "2026-10-13 19:52:59",
+  "policy": "random",
+  "checkpoint": null,
+  "target": null,
+  "split": "val",
+  "stage": "dev",
+  "min_pruning_ratio": 0.0,
+  "stop_logit_bias": 0.0,
+  "n_trees": 31
+}

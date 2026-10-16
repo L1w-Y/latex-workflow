@@ -1,0 +1,12 @@
+{
+  "command": "D:\\PROJECTS\\latex-workflow\\dt_pruning\\evaluate.py --policy bc --split val --stage dev --exp e3_comprehensive --workers 8 --tag curve_bc --checkpoint checkpoints_bc/bc_best.pt --min-pruning-ratio 0.30",
+  "time": "2026-10-13 18:50:53",
+  "policy": "bc",
+  "checkpoint": "checkpoints_bc/bc_best.pt",
+  "target": null,
+  "split": "val",
+  "stage": "dev",
+  "min_pruning_ratio": 0.3,
+  "stop_logit_bias": 0.0,
+  "n_trees": 31
+}

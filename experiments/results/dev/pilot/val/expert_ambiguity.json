@@ -1,0 +1,50 @@
+{
+ "summary": {
+  "n_states": 122,
+  "legal_candidates": {
+   "median": 623.5,
+   "p25": 552.75,
+   "p75": 704.5,
+   "mean": 621.655737704918
+  },
+  "positive_score_candidates": {
+   "median": 544.0,
+   "p25": 482.75,
+   "p75": 610.75,
+   "mean": 540.3688524590164
+  },
+  "candidates_ge95pct_of_max": {
+   "median": 11.0,
+   "p25": 5.25,
+   "p75": 17.0,
+   "mean": 13.278688524590164
+  },
+  "candidates_ge90pct_of_max": {
+   "median": 22.0,
+   "p25": 14.0,
+   "p75": 35.0,
+   "mean": 26.07377049180328
+  },
+  "expert_label_is_argmax_rate": 1.0,
+  "bc_pick_rank": {
+   "median": 8.0,
+   "p25": 3.0,
+   "p75": 17.0,
+   "mean": 20.672131147540984
+  },
+  "bc_pick_in_top10_rate": 0.5901639344262295,
+  "bc_pick_score_ratio_to_max": {
+   "median": 0.9572497604471455,
+   "p25": 0.8983337302759266,
+   "p75": 0.99829424407831,
+   "mean": 0.9256142066058186
+  },
+  "bc_pick_positive_rate": 1.0
+ },
+ "rows": [
+  {
+   "tree": "Lemon00_01",
+   "t": 0,
+   "n_legal": 630,
+   "s_max": 6.4655273828976485,
+   "n_ge95": 

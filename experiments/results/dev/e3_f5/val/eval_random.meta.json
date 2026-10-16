@@ -1,0 +1,10 @@
+{
+  "command": "D:\\PROJECTS\\latex-workflow\\dt_pruning\\evaluate.py --policy random --split val --stage dev --workers 8 --exp e3_f5",
+  "time": "2026-10-13 12:57:50",
+  "policy": "random",
+  "checkpoint": null,
+  "target": null,
+  "split": "val",
+  "stage": "dev",
+  "n_trees": 31
+}

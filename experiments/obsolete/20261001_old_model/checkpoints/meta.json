@@ -1,0 +1,7 @@
+{
+  "n_actions": 1186,
+  "stop_slot": 1185,
+  "rtg_scale": 1000.0,
+  "context_len": 16,
+  "state_dim": 128
+}

@@ -1,0 +1,5888 @@
+[
+  {
+    "file": "expert_traj_Lemon00_01.pkl",
+    "type": "expert",
+    "total_steps": 190,
+    "rtg0": 39.4872,
+    "total_reward": 39.4872,
+    "initial_branch_count": 630,
+    "final_pruning_ratio": 0.3,
+    "steps": [
+      {
+        "t": 0,
+        "action": 626,
+        "reward": 0.2461,
+        "rtg": 39.4872,
+        "is_stop": false
+      },
+      {
+        "t": 1,
+        "action": 620,
+        "reward": 0.2431,
+        "rtg": 39.2412,
+        "is_stop": false
+      },
+      {
+        "t": 2,
+        "action": 591,
+        "reward": 0.2809,
+        "rtg": 38.9981,
+        "is_stop": false
+      },
+      {
+        "t": 3,
+        "action": 516,
+        "reward": 0.2343,
+        "rtg": 38.7171,
+        "is_stop": false
+      },
+      {
+        "t": 4,
+        "action": 512,
+        "reward": 0.2735,
+        "rtg": 38.4829,
+        "is_stop": false
+      },
+      {
+        "t": 5,
+        "action": 622,
+        "reward": 0.2128,
+        "rtg": 38.2094,
+        "is_stop": false
+      },
+      {
+        "t": 6,
+        "action": 483,
+        "reward": 0.2178,
+        "rtg": 37.9966,
+        "is_stop": false
+      },
+      {
+        "t": 7,
+        "action": 491,
+        "reward": 0.2017,
+        "rtg": 37.7788,
+        "is_stop": false
+      },
+      {
+        "t": 8,
+        "action": 511,
+        "reward": 0.2644,
+        "rtg": 37.5771,
+        "is_stop": false
+      },
+      {
+        "t": 9,
+        "action": 471,
+        "reward": 0.2448,
+        "rtg": 37.3127,
+        "is_stop": false
+      },
+      {
+        "t": 10,
+        "action": 472,
+        "reward": 0.2518,
+        "rtg": 37.0679,
+        "is_stop": false
+      },
+      {
+        "t": 11,
+        "action": 589,
+        "reward": 0.2318,
+        "rtg": 36.8161,
+        "is_stop": false
+      },
+      {
+        "t": 12,
+        "action": 473,
+        "reward": 0.1888,
+        "rtg": 36.5843,
+        "is_stop": false
+      },
+      {
+        "t": 13,
+        "action": 596,
+        "reward": 0.2393,
+        "rtg": 36.3955,
+        "is_stop": false
+      },
+      {
+        "t": 14,
+        "action": 494,
+        "reward": 0.2111,
+        "rtg": 36.1562,
+        "is_stop": false
+      },
+      {
+        "t": 15,
+        "action": 427,
+        "reward": 0.1412,
+        "rtg": 35.945,
+        "is_stop": false
+      },
+      {
+        "t": 16,
+        "action": 618,
+        "reward": 0.2665,
+        "rtg": 35.8039,
+        "is_stop": false
+      },
+      {
+        "t": 17,
+        "action": 590,
+        "reward": 0.2218,
+        "rtg": 35.5374,
+        "is_stop": false
+      },
+      {
+        "t": 18,
+        "action": 577,
+        "reward": 0.1583,
+        "rtg": 35.3156,
+        "is_stop": false
+      },
+      {
+        "t": 19,
+        "action": 510,
+        "reward": 0.3573,
+        "rtg": 35.1572,
+        "is_stop": false
+      },
+      {
+        "t": 20,
+        "action": 580,
+        "reward": 0.2391,
+        "rtg": 34.7999,
+        "is_stop": false
+      },
+      {
+        "t": 21,
+        "action": 438,
+        "reward": 0.2583,
+        "rtg": 34.5608,
+        "is_stop": false
+      },
+      {
+        "t": 22,
+        "action": 470,
+        "reward": 0.2769,
+        "rtg": 34.3025,
+        "is_stop": false
+      },
+      {
+        "t": 23,
+        "action": 435,
+        "reward": 0.2445,
+        "rtg": 34.0256,
+        "is_stop": false
+      },
+      {
+        "t": 24,
+        "action": 356,
+        "reward": 0.2038,
+        "rtg": 33.7811,
+        "is_stop": false
+      },
+      {
+        "t": 25,
+        "action": 469,
+        "reward": 0.2804,
+        "rtg": 33.5773,
+        "is_stop": false
+      },
+      {
+        "t": 26,
+        "action": 625,
+        "reward": 0.2482,
+        "rtg": 33.2969,
+        "is_stop": false
+      },
+      {
+        "t": 27,
+        "action": 616,
+        "reward": 0.3423,
+        "rtg": 33.0486,
+        "is_stop": false
+      },
+      {
+        "t": 28,
+        "action": 456,
+        "reward": 0.2148,
+        "rtg": 32.7064,
+        "is_stop": false
+      },
+      {
+        "t": 29,
+        "action": 568,
+        "reward": 0.1895,
+        "rtg": 32.4915,
+        "is_stop": false
+      },
+      {
+        "t": 30,
+        "action": 344,
+        "reward": 0.1338,
+        "rtg": 32.302,
+        "is_stop": false
+      },
+      {
+        "t": 31,
+        "action": 621,
+        "reward": 0.2467,
+        "rtg": 32.1682,
+        "is_stop": false
+      },
+      {
+        "t": 32,
+        "action": 414,
+        "reward": 0.2018,
+        "rtg": 31.9215,
+        "is_stop": false
+      },
+      {
+        "t": 33,
+        "action": 437,
+        "reward": 0.2495,
+        "rtg": 31.7197,
+        "is_stop": false
+      },
+      {
+        "t": 34,
+        "action": 489,
+        "reward": 0.2146,
+        "rtg": 31.4702,
+        "is_stop": false
+      },
+      {
+        "t": 35,
+        "action": 357,
+        "reward": 0.1911,
+        "rtg": 31.2556,
+        "is_stop": false
+      },
+      {
+        "t": 36,
+        "action": 615,
+        "reward": 0.3604,
+        "rtg": 31.0646,
+        "is_stop": false
+      },
+      {
+        "t": 37,
+        "action": 476,
+        "reward": 0.2368,
+        "rtg": 30.7042,
+        "is_stop": false
+      },
+      {
+        "t": 38,
+        "action": 474,
+        "reward": 0.1971,
+        "rtg": 30.4675,
+        "is_stop": false
+      },
+      {
+        "t": 39,
+        "action": 582,
+        "reward": 0.1989,
+        "rtg": 30.2703,
+        "is_stop": false
+      },
+      {
+        "t": 40,
+        "action": 569,
+        "reward": 0.2088,
+        "rtg": 30.0714,
+        "is_stop": false
+      },
+      {
+        "t": 41,
+        "action": 415,
+        "reward": 0.2017,
+        "rtg": 29.8627,
+        "is_stop": false
+      },
+      {
+        "t": 42,
+        "action": 597,
+        "reward": 0.2425,
+        "rtg": 29.661,
+        "is_stop": false
+      },
+      {
+        "t": 43,
+        "action": 513,
+        "reward": 0.2829,
+        "rtg": 29.4184,
+        "is_stop": false
+      },
+      {
+        "t": 44,
+        "action": 594,
+        "reward": 0.1997,
+        "rtg": 29.1356,
+        "is_stop": false
+      },
+      {
+        "t": 45,
+        "action": 592,
+        "reward": 0.2236,
+        "rtg": 28.9359,
+        "is_stop": false
+      },
+      {
+        "t": 46,
+        "action": 570,
+        "reward": 0.1912,
+        "rtg": 28.7122,
+        "is_stop": false
+      },
+      {
+        "t": 47,
+        "action": 446,
+        "reward": 0.2134,
+        "rtg": 28.521,
+        "is_stop": false
+      },
+      {
+        "t": 48,
+        "action": 436,
+        "reward": 0.2691,
+        "rtg": 28.3077,
+        "is_stop": false
+      },
+      {
+        "t": 49,
+        "action": 630,
+        "reward": 0.2181,
+        "rtg": 28.0386,
+        "is_stop": false
+      },
+      {
+        "t": 50,
+        "action": 575,
+        "reward": 0.1956,
+        "rtg": 27.8206,
+        "is_stop": false
+      },
+      {
+        "t": 51,
+        "action": 416,
+        "reward": 0.218,
+        "rtg": 27.625,
+        "is_stop": false
+      },
+      {
+        "t": 52,
+        "action": 466,
+        "reward": 0.3439,
+        "rtg": 27.407,
+        "is_stop": false
+      },
+      {
+        "t": 53,
+        "action": 417,
+        "reward": 0.1921,
+        "rtg": 27.0631,
+        "is_stop": false
+      },
+      {
+        "t": 54,
+        "action": 623,
+        "reward": 0.2346,
+        "rtg": 26.8709,
+        "is_stop": false
+      },
+      {
+        "t": 55,
+        "action": 576,
+        "reward": 0.1601,
+        "rtg": 26.6363,
+        "is_stop": false
+      },
+      {
+        "t": 56,
+        "action": 418,
+        "reward": 0.1772,
+        "rtg": 26.4762,
+        "is_stop": false
+      },
+      {
+        "t": 57,
+        "action": 329,
+        "reward": 0.201,
+        "rtg": 26.299,
+        "is_stop": false
+      },
+      {
+        "t": 58,
+        "action": 514,
+        "reward": 0.2921,
+        "rtg": 26.0979,
+        "is_stop": false
+      },
+      {
+        "t": 59,
+        "action": 351,
+        "reward": 0.316,
+        "rtg": 25.8059,
+        "is_stop": false
+      },
+      {
+        "t": 60,
+        "action": 413,
+        "reward": 0.2166,
+        "rtg": 25.4899,
+        "is_stop": false
+      },
+      {
+        "t": 61,
+        "action": 619,
+        "reward": 0.2711,
+        "rtg": 25.2732,
+        "is_stop": false
+      },
+      {
+        "t": 62,
+        "action": 443,
+        "reward": 0.2088,
+        "rtg": 25.0022,
+        "is_stop": false
+      },
+      {
+        "t": 63,
+        "action": 460,
+        "reward": 0.1986,
+        "rtg": 24.7933,
+        "is_stop": false
+      },
+      {
+        "t": 64,
+        "action": 553,
+        "reward": 0.1804,
+        "rtg": 24.5947,
+        "is_stop": false
+      },
+      {
+        "t": 65,
+        "action": 467,
+        "reward": 0.3547,
+        "rtg": 24.4144,
+        "is_stop": false
+      },
+      {
+        "t": 66,
+        "action": 439,
+        "reward": 0.2411,
+        "rtg": 24.0597,
+        "is_stop": false
+      },
+      {
+        "t": 67,
+        "action": 614,
+        "reward": 0.3603,
+        "rtg": 23.8186,
+        "is_stop": false
+      },
+      {
+        "t": 68,
+        "action": 522,
+        "reward": 0.1814,
+        "rtg": 23.4583,
+        "is_stop": false
+      },
+      {
+        "t": 69,
+        "action": 551,
+        "reward": 0.1958,
+        "rtg": 23.2769,
+        "is_stop": false
+      },
+      {
+        "t": 70,
+        "action": 539,
+        "reward": 0.314,
+        "rtg": 23.0811,
+        "is_stop": false
+      },
+      {
+        "t": 71,
+        "action": 330,
+        "reward": 0.2951,
+        "rtg": 22.7671,
+        "is_stop": false
+      },
+      {
+        "t": 72,
+        "action": 468,
+        "reward": 0.3587,
+        "rtg": 22.472,
+        "is_stop": false
+      },
+      {
+        "t": 73,
+        "action": 295,
+        "reward": 0.1329,
+        "rtg": 22.1133,
+        "is_stop": false
+      },
+      {
+        "t": 74,
+        "action": 526,
+        "reward": 0.2086,
+        "rtg": 21.9804,
+        "is_stop": false
+      },
+      {
+        "t": 75,
+        "action": 610,
+        "reward": 0.1581,
+        "rtg": 21.7718,
+        "is_stop": false
+      },
+      {
+        "t": 76,
+        "action": 485,
+        "reward": 0.2066,
+        "rtg": 21.6137,
+        "is_stop": false
+      },
+      {
+        "t": 77,
+        "action": 367,
+        "reward": 0.1708,
+        "rtg": 21.4071,
+        "is_stop": false
+      },
+      {
+        "t": 78,
+        "action": 571,
+        "reward": 0.3509,
+        "rtg": 21.2363,
+        "is_stop": false
+      },
+      {
+        "t": 79,
+        "action": 332,
+        "reward": 0.2066,
+        "rtg": 20.8854,
+        "is_stop": false
+      },
+      {
+        "t": 80,
+        "action": 609,
+        "reward": 0.1856,
+        "rtg": 20.6788,
+        "is_stop": false
+      },
+      {
+        "t": 81,
+        "action": 584,
+        "reward": 0.1596,
+        "rtg": 20.4932,
+        "is_stop": false
+      },
+      {
+        "t": 82,
+        "action": 629,
+        "reward": 0.2195,
+        "rtg": 20.3335,
+        "is_stop": false
+      },
+      {
+        "t": 83,
+        "action": 497,
+        "reward": 0.1693,
+        "rtg": 20.114,
+        "is_stop": false
+      },
+      {
+        "t": 84,
+        "action": 627,
+        "reward": 0.2375,
+        "rtg": 19.9447,
+        "is_stop": false
+      },
+      {
+        "t": 85,
+        "action": 484,
+        "reward": 0.2493,
+        "rtg": 19.7072,
+        "is_stop": false
+      },
+      {
+        "t": 86,
+        "action": 493,
+        "reward": 0.2429,
+        "rtg": 19.4579,
+        "is_stop": false
+      },
+      {
+        "t": 87,
+        "action": 550,
+        "reward": 0.2089,
+        "rtg": 19.215,
+        "is_stop": false
+      },
+      {
+        "t": 88,
+        "action": 543,
+        "reward": 0.17,
+        "rtg": 19.0062,
+        "is_stop": false
+      },
+      {
+        "t": 89,
+        "action": 519,
+        "reward": 0.2094,
+        "rtg": 18.8362,
+        "is_stop": false
+      },
+      {
+        "t": 90,
+        "action": 355,
+        "reward": 0.2502,
+        "rtg": 18.6268,
+        "is_stop": false
+      },
+      {
+        "t": 91,
+        "action": 440,
+        "reward": 0.2394,
+        "rtg": 18.3767,
+        "is_stop": false
+      },
+      {
+        "t": 92,
+        "action": 353,
+        "reward": 0.249,
+        "rtg": 18.1373,
+        "is_stop": false
+      },
+      {
+        "t": 93,
+        "action": 567,
+        "reward": 0.1851,
+        "rtg": 17.8883,
+        "is_stop": false
+      },
+      {
+        "t": 94,
+        "action": 617,
+        "reward": 0.3496,
+        "rtg": 17.7032,
+        "is_stop": false
+      },
+      {
+        "t": 95,
+        "action": 378,
+        "reward": 0.1926,
+        "rtg": 17.3536,
+        "is_stop": false
+      },
+      {
+        "t": 96,
+        "action": 499,
+        "reward": 0.1403,
+        "rtg": 17.161,
+        "is_stop": false
+      },
+      {
+        "t": 97,
+        "action": 379,
+        "reward": 0.1725,
+        "rtg": 17.0208,
+        "is_stop": false
+      },
+      {
+        "t": 98,
+        "action": 377,
+        "reward": 0.1771,
+        "rtg": 16.8482,
+        "is_stop": false
+      },
+      {
+        "t": 99,
+        "action": 421,
+        "reward": 0.1809,
+        "rtg": 16.6712,
+        "is_stop": false
+      },
+      {
+        "t": 100,
+        "action": 528,
+        "reward": 0.1645,
+        "rtg": 16.4903,
+        "is_stop": false
+      },
+      {
+        "t": 101,
+        "action": 490,
+        "reward": 0.2326,
+        "rtg": 16.3258,
+        "is_stop": false
+      },
+      {
+        "t": 102,
+        "action": 368,
+        "reward": 0.1254,
+        "rtg": 16.0932,
+        "is_stop": false
+      },
+      {
+        "t": 103,
+        "action": 628,
+        "reward": 0.2448,
+        "rtg": 15.9677,
+        "is_stop": false
+      },
+      {
+        "t": 104,
+        "action": 587,
+        "reward": 0.3347,
+        "rtg": 15.723,
+        "is_stop": false
+      },
+      {
+        "t": 105,
+        "action": 602,
+        "reward": 0.1909,
+        "rtg": 15.3883,
+        "is_stop": false
+      },
+      {
+        "t": 106,
+        "action": 566,
+        "reward": 0.2004,
+        "rtg": 15.1974,
+        "is_stop": false
+      },
+      {
+        "t": 107,
+        "action": 498,
+        "reward": 0.1456,
+        "rtg": 14.9971,
+        "is_stop": false
+      },
+      {
+        "t": 108,
+        "action": 15,
+        "reward": 0.0304,
+        "rtg": 14.8514,
+        "is_stop": false
+      },
+      {
+        "t": 109,
+        "action": 420,
+        "reward": 0.1833,
+        "rtg": 14.821,
+        "is_stop": false
+      },
+      {
+        "t": 110,
+        "action": 343,
+        "reward": 0.1216,
+        "rtg": 14.6377,
+        "is_stop": false
+      },
+      {
+        "t": 111,
+        "action": 145,
+        "reward": 0.1515,
+        "rtg": 14.5162,
+        "is_stop": false
+      },
+      {
+        "t": 112,
+        "action": 184,
+        "reward": 0.1729,
+        "rtg": 14.3647,
+        "is_stop": false
+      },
+      {
+        "t": 113,
+        "action": 560,
+        "reward": 0.1624,
+        "rtg": 14.1918,
+        "is_stop": false
+      },
+      {
+        "t": 114,
+        "action": 331,
+        "reward": 0.1871,
+        "rtg": 14.0294,
+        "is_stop": false
+      },
+      {
+        "t": 115,
+        "action": 479,
+        "reward": 0.2151,
+        "rtg": 13.8423,
+        "is_stop": false
+      },
+      {
+        "t": 116,
+        "action": 545,
+        "reward": 0.1372,
+        "rtg": 13.6272,
+        "is_stop": false
+      },
+      {
+        "t": 117,
+        "action": 561,
+        "reward": 0.1242,
+        "rtg": 13.49,
+        "is_stop": false
+      },
+      {
+        "t": 118,
+        "action": 608,
+        "reward": 0.1706,
+        "rtg": 13.3658,
+        "is_stop": false
+      },
+      {
+        "t": 119,
+        "action": 477,
+        "reward": 0.2405,
+        "rtg": 13.1952,
+        "is_stop": false
+      },
+      {
+        "t": 120,
+        "action": 410,
+        "reward": 0.359,
+        "rtg": 12.9547,
+        "is_stop": false
+      },
+      {
+        "t": 121,
+        "action": 518,
+        "reward": 0.2079,
+        "rtg": 12.5957,
+        "is_stop": false
+      },
+      {
+        "t": 122,
+        "action": 118,
+        "reward": 0.0677,
+        "rtg": 12.3878,
+        "is_stop": false
+      },
+      {
+        "t": 123,
+        "action": 552,
+        "reward": 0.171,
+        "rtg": 12.3201,
+        "is_stop": false
+      },
+      {
+        "t": 124,
+        "action": 574,
+        "reward": 0.2002,
+        "rtg": 12.1491,
+        "is_stop": false
+      },
+      {
+        "t": 125,
+        "action": 595,
+        "reward": 0.3331,
+        "rtg": 11.9489,
+        "is_stop": false
+      },
+      {
+        "t": 126,
+        "action": 558,
+        "reward": 0.1843,
+        "rtg": 11.6158,
+        "is_stop": false
+      },
+      {
+        "t": 127,
+        "action": 442,
+        "reward": 0.2143,
+        "rtg": 11.4314,
+        "is_stop": false
+      },
+      {
+        "t": 128,
+        "action": 598,
+        "reward": 0.3558,
+        "rtg": 11.2171,
+        "is_stop": false
+      },
+      {
+        "t": 129,
+        "action": 478,
+        "reward": 0.199,
+        "rtg": 10.8613,
+        "is_stop": false
+      },
+      {
+        "t": 130,
+        "action": 624,
+        "reward": 0.3449,
+        "rtg": 10.6622,
+        "is_stop": false
+      },
+      {
+        "t": 131,
+        "action": 352,
+        "reward": 0.2378,
+        "rtg": 10.3173,
+        "is_stop": false
+      },
+      {
+        "t": 132,
+        "action": 586,
+        "reward": 0.1378,
+        "rtg": 10.0795,
+        "is_stop": false
+      },
+      {
+        "t": 133,
+        "action": 334,
+        "reward": 0.1372,
+        "rtg": 9.9417,
+        "is_stop": false
+      },
+      {
+        "t": 134,
+        "action": 593,
+        "reward": 0.1976,
+        "rtg": 9.8045,
+        "is_stop": false
+      },
+      {
+        "t": 135,
+        "action": 224,
+        "reward": 0.1212,
+        "rtg": 9.6069,
+        "is_stop": false
+      },
+      {
+        "t": 136,
+        "action": 354,
+        "reward": 0.2427,
+        "rtg": 9.4857,
+        "is_stop": false
+      },
+      {
+        "t": 137,
+        "action": 542,
+        "reward": 0.1665,
+        "rtg": 9.243,
+        "is_stop": false
+      },
+      {
+        "t": 138,
+        "action": 559,
+        "reward": 0.1623,
+        "rtg": 9.0765,
+        "is_stop": false
+      },
+      {
+        "t": 139,
+        "action": 333,
+        "reward": 0.1392,
+        "rtg": 8.9142,
+        "is_stop": false
+      },
+      {
+        "t": 140,
+        "action": 515,
+        "reward": 0.2552,
+        "rtg": 8.775,
+        "is_stop": false
+      },
+      {
+        "t": 141,
+        "action": 523,
+        "reward": 0.1678,
+        "rtg": 8.5198,
+        "is_stop": false
+      },
+      {
+        "t": 142,
+        "action": 492,
+        "reward": 0.2384,
+        "rtg": 8.352,
+        "is_stop": false
+      },
+      {
+        "t": 143,
+        "action": 533,
+        "reward": 0.1647,
+        "rtg": 8.1136,
+        "is_stop": false
+      },
+      {
+        "t": 144,
+        "action": 486,
+        "reward": 0.1946,
+        "rtg": 7.9489,
+        "is_stop": false
+      },
+      {
+        "t": 145,
+        "action": 448,
+        "reward": 0.1855,
+        "rtg": 7.7543,
+        "is_stop": false
+      },
+      {
+        "t": 146,
+        "action": 122,
+        "reward": 0.0366,
+        "rtg": 7.5688,
+        "is_stop": false
+      },
+      {
+        "t": 147,
+        "action": 520,
+        "reward": 0.177,
+        "rtg": 7.5323,
+        "is_stop": false
+      },
+      {
+        "t": 148,
+        "action": 447,
+        "reward": 0.1847,
+        "rtg": 7.3553,
+        "is_stop": false
+      },
+      {
+        "t": 149,
+        "action": 144,
+        "reward": 0.1311,
+        "rtg": 7.1706,
+        "is_stop": false
+      },
+      {
+        "t": 150,
+        "action": 525,
+        "reward": 0.1971,
+        "rtg": 7.0395,
+        "is_stop": false
+      },
+      {
+        "t": 151,
+        "action": 583,
+        "reward": 0.1732,
+        "rtg": 6.8424,
+        "is_stop": false
+      },
+      {
+        "t": 152,
+        "action": 480,
+        "reward": 0.1833,
+        "rtg": 6.6692,
+        "is_stop": false
+      },
+      {
+        "t": 153,
+        "action": 369,
+        "reward": 0.1252,
+        "rtg": 6.4859,
+        "is_stop": false
+      },
+      {
+        "t": 154,
+        "action": 455,
+        "reward": 0.2192,
+        "rtg": 6.3607,
+        "is_stop": false
+      },
+      {
+        "t": 155,
+        "action": 454,
+        "reward": 0.2445,
+        "rtg": 6.1415,
+        "is_stop": false
+      },
+      {
+        "t": 156,
+        "action": 449,
+        "reward": 0.181,
+        "rtg": 5.897,
+        "is_stop": false
+      },
+      {
+        "t": 157,
+        "action": 434,
+        "reward": 0.3603,
+        "rtg": 5.716,
+        "is_stop": false
+      },
+      {
+        "t": 158,
+        "action": 540,
+        "reward": 0.2506,
+        "rtg": 5.3557,
+        "is_stop": false
+      },
+      {
+        "t": 159,
+        "action": 453,
+        "reward": 0.2545,
+        "rtg": 5.1051,
+        "is_stop": false
+      },
+      {
+        "t": 160,
+        "action": 337,
+        "reward": 0.1502,
+        "rtg": 4.8506,
+        "is_stop": false
+      },
+      {
+        "t": 161,
+        "action": 536,
+        "reward": 0.1409,
+        "rtg": 4.7004,
+        "is_stop": false
+      },
+      {
+        "t": 162,
+        "action": 182,
+        "reward": 0.1821,
+        "rtg": 4.5595,
+        "is_stop": false
+      },
+      {
+        "t": 163,
+        "action": 544,
+        "reward": 0.1415,
+        "rtg": 4.3774,
+        "is_stop": false
+      },
+      {
+        "t": 164,
+        "action": 432,
+        "reward": 0.1179,
+        "rtg": 4.2359,
+        "is_stop": false
+      },
+      {
+        "t": 165,
+        "action": 120,
+        "reward": 0.0786,
+        "rtg": 4.118,
+        "is_stop": false
+      },
+      {
+        "t": 166,
+        "action": 422,
+        "reward": 0.1552,
+        "rtg": 4.0394,
+        "is_stop": false
+      },
+      {
+        "t": 167,
+        "action": 398,
+        "reward": 0.1767,
+        "rtg": 3.8842,
+        "is_stop": false
+      },
+      {
+        "t": 168,
+        "action": 232,
+        "reward": 0.0923,
+        "rtg": 3.7075,
+        "is_stop": false
+      },
+      {
+        "t": 169,
+        "action": 345,
+        "reward": 0.1138,
+        "rtg": 3.6153,
+        "is_stop": false
+      },
+      {
+        "t": 170,
+        "action": 13,
+        "reward": 0.0347,
+        "rtg": 3.5015,
+        "is_stop": false
+      },
+      {
+        "t": 171,
+        "action": 350,
+        "reward": 0.312,
+        "rtg": 3.4668,
+        "is_stop": false
+      },
+      {
+        "t": 172,
+        "action": 482,
+        "reward": 0.2651,
+        "rtg": 3.1548,
+        "is_stop": false
+      },
+      {
+        "t": 173,
+        "action": 445,
+        "reward": 0.2258,
+        "rtg": 2.8897,
+        "is_stop": false
+      },
+      {
+        "t": 174,
+        "action": 611,
+        "reward": 0.1559,
+        "rtg": 2.6639,
+        "is_stop": false
+      },
+      {
+        "t": 175,
+        "action": 565,
+        "reward": 0.2143,
+        "rtg": 2.508,
+        "is_stop": false
+      },
+      {
+        "t": 176,
+        "action": 487,
+        "reward": 0.2393,
+        "rtg": 2.2937,
+        "is_stop": false
+      },
+      {
+        "t": 177,
+        "action": 430,
+        "reward": 0.1182,
+        "rtg": 2.0544,
+        "is_stop": false
+      },
+      {
+        "t": 178,
+        "action": 16,
+        "reward": 0.0356,
+        "rtg": 1.9362,
+        "is_stop": false
+      },
+      {
+        "t": 179,
+        "action": 496,
+        "reward": 0.2028,
+        "rtg": 1.9006,
+        "is_stop": false
+      },
+      {
+        "t": 180,
+        "action": 366,
+        "reward": 0.1737,
+        "rtg": 1.6979,
+        "is_stop": false
+      },
+      {
+        "t": 181,
+        "action": 424,
+        "reward": 0.1129,
+        "rtg": 1.5242,
+        "is_stop": false
+      },
+      {
+        "t": 182,
+        "action": 450,
+        "reward": 0.1853,
+        "rtg": 1.4113,
+        "is_stop": false
+      },
+      {
+        "t": 183,
+        "action": 573,
+        "reward": 0.292,
+        "rtg": 1.226,
+        "is_stop": false
+      },
+      {
+        "t": 184,
+        "action": 462,
+        "reward": 0.1798,
+        "rtg": 0.934,
+        "is_stop": false
+      },
+      {
+        "t": 185,
+        "action": 405,
+        "reward": 0.1542,
+        "rtg": 0.7542,
+        "is_stop": false
+      },
+      {
+        "t": 186,
+        "action": 588,
+        "reward": 0.346,
+        "rtg": 0.6,
+        "is_stop": false
+      },
+      {
+        "t": 187,
+        "action": 554,
+        "reward": 0.1476,
+        "rtg": 0.254,
+        "is_stop": false
+      },
+      {
+        "t": 188,
+        "action": 257,
+        "reward": 0.1064,
+        "rtg": 0.1064,
+        "is_stop": false
+      },
+      {
+        "t": 189,
+        "action": -1,
+        "reward": 0.0,
+        "rtg": 0.0,
+        "is_stop": true
+      }
+    ]
+  },
+  {
+    "file": "random_traj_Lemon00_01_1.pkl",
+    "type": "random",
+    "total_steps": 167,
+    "rtg0": 22.0936,
+    "total_reward": 22.0936,
+    "initial_branch_count": 630,
+    "final_pruning_ratio": 0.2635,
+    "steps": [
+      {
+        "t": 0,
+        "action": 26,
+        "reward": 0.0893,
+        "rtg": 22.0936,
+        "is_stop": false
+      },
+      {
+        "t": 1,
+        "action": 283,
+        "reward": 0.0271,
+        "rtg": 22.0043,
+        "is_stop": false
+      },
+      {
+        "t": 2,
+        "action": 252,
+        "reward": 0.1254,
+        "rtg": 21.9773,
+        "is_stop": false
+      },
+      {
+        "t": 3,
+        "action": 230,
+        "reward": 0.1529,
+        "rtg": 21.8518,
+        "is_stop": false
+      },
+      {
+        "t": 4,
+        "action": 144,
+        "reward": 0.1223,
+        "rtg": 21.699,
+        "is_stop": false
+      },
+      {
+        "t": 5,
+        "action": 106,
+        "reward": 0.0907,
+        "rtg": 21.5766,
+        "is_stop": false
+      },
+      {
+        "t": 6,
+        "action": 565,
+        "reward": 0.1809,
+        "rtg": 21.4859,
+        "is_stop": false
+      },
+      {
+        "t": 7,
+        "action": 91,
+        "reward": 0.0834,
+        "rtg": 21.3051,
+        "is_stop": false
+      },
+      {
+        "t": 8,
+        "action": 613,
+        "reward": 0.1159,
+        "rtg": 21.2217,
+        "is_stop": false
+      },
+      {
+        "t": 9,
+        "action": 440,
+        "reward": 0.2246,
+        "rtg": 21.1058,
+        "is_stop": false
+      },
+      {
+        "t": 10,
+        "action": 34,
+        "reward": 0.0189,
+        "rtg": 20.8812,
+        "is_stop": false
+      },
+      {
+        "t": 11,
+        "action": 32,
+        "reward": 0.015,
+        "rtg": 20.8623,
+        "is_stop": false
+      },
+      {
+        "t": 12,
+        "action": 100,
+        "reward": 0.078,
+        "rtg": 20.8473,
+        "is_stop": false
+      },
+      {
+        "t": 13,
+        "action": 232,
+        "reward": 0.0791,
+        "rtg": 20.7693,
+        "is_stop": false
+      },
+      {
+        "t": 14,
+        "action": 248,
+        "reward": 0.0445,
+        "rtg": 20.6902,
+        "is_stop": false
+      },
+      {
+        "t": 15,
+        "action": 531,
+        "reward": 0.2608,
+        "rtg": 20.6458,
+        "is_stop": false
+      },
+      {
+        "t": 16,
+        "action": 29,
+        "reward": 0.0163,
+        "rtg": 20.3849,
+        "is_stop": false
+      },
+      {
+        "t": 17,
+        "action": 591,
+        "reward": 0.2811,
+        "rtg": 20.3687,
+        "is_stop": false
+      },
+      {
+        "t": 18,
+        "action": 212,
+        "reward": 0.1052,
+        "rtg": 20.0876,
+        "is_stop": false
+      },
+      {
+        "t": 19,
+        "action": 576,
+        "reward": 0.1538,
+        "rtg": 19.9824,
+        "is_stop": false
+      },
+      {
+        "t": 20,
+        "action": 445,
+        "reward": 0.2647,
+        "rtg": 19.8286,
+        "is_stop": false
+      },
+      {
+        "t": 21,
+        "action": 237,
+        "reward": 0.0995,
+        "rtg": 19.5639,
+        "is_stop": false
+      },
+      {
+        "t": 22,
+        "action": 477,
+        "reward": 0.2255,
+        "rtg": 19.4645,
+        "is_stop": false
+      },
+      {
+        "t": 23,
+        "action": 627,
+        "reward": 0.2226,
+        "rtg": 19.2389,
+        "is_stop": false
+      },
+      {
+        "t": 24,
+        "action": 300,
+        "reward": 0.1421,
+        "rtg": 19.0163,
+        "is_stop": false
+      },
+      {
+        "t": 25,
+        "action": 7,
+        "reward": 0.0189,
+        "rtg": 18.8742,
+        "is_stop": false
+      },
+      {
+        "t": 26,
+        "action": 173,
+        "reward": 0.0732,
+        "rtg": 18.8552,
+        "is_stop": false
+      },
+      {
+        "t": 27,
+        "action": 453,
+        "reward": 0.2179,
+        "rtg": 18.782,
+        "is_stop": false
+      },
+      {
+        "t": 28,
+        "action": 367,
+        "reward": 0.1606,
+        "rtg": 18.5642,
+        "is_stop": false
+      },
+      {
+        "t": 29,
+        "action": 303,
+        "reward": 0.0959,
+        "rtg": 18.4035,
+        "is_stop": false
+      },
+      {
+        "t": 30,
+        "action": 169,
+        "reward": 0.0725,
+        "rtg": 18.3076,
+        "is_stop": false
+      },
+      {
+        "t": 31,
+        "action": 235,
+        "reward": 0.0457,
+        "rtg": 18.2351,
+        "is_stop": false
+      },
+      {
+        "t": 32,
+        "action": 366,
+        "reward": 0.2165,
+        "rtg": 18.1894,
+        "is_stop": false
+      },
+      {
+        "t": 33,
+        "action": 113,
+        "reward": 0.0565,
+        "rtg": 17.9729,
+        "is_stop": false
+      },
+      {
+        "t": 34,
+        "action": 102,
+        "reward": 0.0761,
+        "rtg": 17.9164,
+        "is_stop": false
+      },
+      {
+        "t": 35,
+        "action": 415,
+        "reward": 0.1927,
+        "rtg": 17.8403,
+        "is_stop": false
+      },
+      {
+        "t": 36,
+        "action": 109,
+        "reward": 0.1371,
+        "rtg": 17.6477,
+        "is_stop": false
+      },
+      {
+        "t": 37,
+        "action": 394,
+        "reward": 0.1468,
+        "rtg": 17.5105,
+        "is_stop": false
+      },
+      {
+        "t": 38,
+        "action": 379,
+        "reward": 0.1615,
+        "rtg": 17.3637,
+        "is_stop": false
+      },
+      {
+        "t": 39,
+        "action": 293,
+        "reward": 0.19,
+        "rtg": 17.2022,
+        "is_stop": false
+      },
+      {
+        "t": 40,
+        "action": 50,
+        "reward": 0.0329,
+        "rtg": 17.0122,
+        "is_stop": false
+      },
+      {
+        "t": 41,
+        "action": 506,
+        "reward": 0.0931,
+        "rtg": 16.9793,
+        "is_stop": false
+      },
+      {
+        "t": 42,
+        "action": 589,
+        "reward": 0.2326,
+        "rtg": 16.8862,
+        "is_stop": false
+      },
+      {
+        "t": 43,
+        "action": 140,
+        "reward": 0.1754,
+        "rtg": 16.6537,
+        "is_stop": false
+      },
+      {
+        "t": 44,
+        "action": 420,
+        "reward": 0.1719,
+        "rtg": 16.4783,
+        "is_stop": false
+      },
+      {
+        "t": 45,
+        "action": 87,
+        "reward": 0.1718,
+        "rtg": 16.3063,
+        "is_stop": false
+      },
+      {
+        "t": 46,
+        "action": 610,
+        "reward": 0.1481,
+        "rtg": 16.1345,
+        "is_stop": false
+      },
+      {
+        "t": 47,
+        "action": 329,
+        "reward": 0.1921,
+        "rtg": 15.9865,
+        "is_stop": false
+      },
+      {
+        "t": 48,
+        "action": 404,
+        "reward": 0.2087,
+        "rtg": 15.7944,
+        "is_stop": false
+      },
+      {
+        "t": 49,
+        "action": 215,
+        "reward": 0.0816,
+        "rtg": 15.5857,
+        "is_stop": false
+      },
+      {
+        "t": 50,
+        "action": 78,
+        "reward": 0.1025,
+        "rtg": 15.504,
+        "is_stop": false
+      },
+      {
+        "t": 51,
+        "action": 53,
+        "reward": 0.0308,
+        "rtg": 15.4015,
+        "is_stop": false
+      },
+      {
+        "t": 52,
+        "action": 261,
+        "reward": 0.0418,
+        "rtg": 15.3707,
+        "is_stop": false
+      },
+      {
+        "t": 53,
+        "action": 330,
+        "reward": 0.2758,
+        "rtg": 15.3289,
+        "is_stop": false
+      },
+      {
+        "t": 54,
+        "action": 92,
+        "reward": 0.0893,
+        "rtg": 15.0531,
+        "is_stop": false
+      },
+      {
+        "t": 55,
+        "action": 268,
+        "reward": 0.0261,
+        "rtg": 14.9639,
+        "is_stop": false
+      },
+      {
+        "t": 56,
+        "action": 120,
+        "reward": 0.0674,
+        "rtg": 14.9377,
+        "is_stop": false
+      },
+      {
+        "t": 57,
+        "action": 434,
+        "reward": 0.3357,
+        "rtg": 14.8703,
+        "is_stop": false
+      },
+      {
+        "t": 58,
+        "action": 320,
+        "reward": 0.0257,
+        "rtg": 14.5346,
+        "is_stop": false
+      },
+      {
+        "t": 59,
+        "action": 516,
+        "reward": 0.2341,
+        "rtg": 14.5089,
+        "is_stop": false
+      },
+      {
+        "t": 60,
+        "action": 418,
+        "reward": 0.1696,
+        "rtg": 14.2748,
+        "is_stop": false
+      },
+      {
+        "t": 61,
+        "action": 188,
+        "reward": 0.0983,
+        "rtg": 14.1052,
+        "is_stop": false
+      },
+      {
+        "t": 62,
+        "action": 427,
+        "reward": 0.1415,
+        "rtg": 14.0069,
+        "is_stop": false
+      },
+      {
+        "t": 63,
+        "action": 408,
+        "reward": 0.0923,
+        "rtg": 13.8654,
+        "is_stop": false
+      },
+      {
+        "t": 64,
+        "action": 243,
+        "reward": 0.0232,
+        "rtg": 13.7731,
+        "is_stop": false
+      },
+      {
+        "t": 65,
+        "action": 311,
+        "reward": 0.1241,
+        "rtg": 13.7498,
+        "is_stop": false
+      },
+      {
+        "t": 66,
+        "action": 82,
+        "reward": 0.0305,
+        "rtg": 13.6257,
+        "is_stop": false
+      },
+      {
+        "t": 67,
+        "action": 199,
+        "reward": 0.0729,
+        "rtg": 13.5952,
+        "is_stop": false
+      },
+      {
+        "t": 68,
+        "action": 614,
+        "reward": 0.3426,
+        "rtg": 13.5223,
+        "is_stop": false
+      },
+      {
+        "t": 69,
+        "action": 287,
+        "reward": 0.0906,
+        "rtg": 13.1797,
+        "is_stop": false
+      },
+      {
+        "t": 70,
+        "action": 191,
+        "reward": 0.0852,
+        "rtg": 13.0891,
+        "is_stop": false
+      },
+      {
+        "t": 71,
+        "action": 537,
+        "reward": 0.093,
+        "rtg": 13.0039,
+        "is_stop": false
+      },
+      {
+        "t": 72,
+        "action": 447,
+        "reward": 0.1735,
+        "rtg": 12.9109,
+        "is_stop": false
+      },
+      {
+        "t": 73,
+        "action": 319,
+        "reward": 0.0936,
+        "rtg": 12.7374,
+        "is_stop": false
+      },
+      {
+        "t": 74,
+        "action": 259,
+        "reward": 0.0401,
+        "rtg": 12.6438,
+        "is_stop": false
+      },
+      {
+        "t": 75,
+        "action": 383,
+        "reward": 0.0889,
+        "rtg": 12.6037,
+        "is_stop": false
+      },
+      {
+        "t": 76,
+        "action": 65,
+        "reward": 0.0394,
+        "rtg": 12.5148,
+        "is_stop": false
+      },
+      {
+        "t": 77,
+        "action": 273,
+        "reward": 0.1246,
+        "rtg": 12.4754,
+        "is_stop": false
+      },
+      {
+        "t": 78,
+        "action": 38,
+        "reward": 0.0116,
+        "rtg": 12.3508,
+        "is_stop": false
+      },
+      {
+        "t": 79,
+        "action": 376,
+        "reward": 0.1561,
+        "rtg": 12.3391,
+        "is_stop": false
+      },
+      {
+        "t": 80,
+        "action": 479,
+        "reward": 0.2016,
+        "rtg": 12.1831,
+        "is_stop": false
+      },
+      {
+        "t": 81,
+        "action": 323,
+        "reward": 0.0215,
+        "rtg": 11.9815,
+        "is_stop": false
+      },
+      {
+        "t": 82,
+        "action": 77,
+        "reward": 0.0355,
+        "rtg": 11.96,
+        "is_stop": false
+      },
+      {
+        "t": 83,
+        "action": 254,
+        "reward": 0.0489,
+        "rtg": 11.9245,
+        "is_stop": false
+      },
+      {
+        "t": 84,
+        "action": 380,
+        "reward": 0.1908,
+        "rtg": 11.8756,
+        "is_stop": false
+      },
+      {
+        "t": 85,
+        "action": 256,
+        "reward": 0.0688,
+        "rtg": 11.6848,
+        "is_stop": false
+      },
+      {
+        "t": 86,
+        "action": 594,
+        "reward": 0.1912,
+        "rtg": 11.616,
+        "is_stop": false
+      },
+      {
+        "t": 87,
+        "action": 480,
+        "reward": 0.1722,
+        "rtg": 11.4248,
+        "is_stop": false
+      },
+      {
+        "t": 88,
+        "action": 549,
+        "reward": 0.2379,
+        "rtg": 11.2526,
+        "is_stop": false
+      },
+      {
+        "t": 89,
+        "action": 171,
+        "reward": 0.1593,
+        "rtg": 11.0148,
+        "is_stop": false
+      },
+      {
+        "t": 90,
+        "action": 325,
+        "reward": 0.0191,
+        "rtg": 10.8554,
+        "is_stop": false
+      },
+      {
+        "t": 91,
+        "action": 166,
+        "reward": 0.0717,
+        "rtg": 10.8363,
+        "is_stop": false
+      },
+      {
+        "t": 92,
+        "action": 302,
+        "reward": 0.0974,
+        "rtg": 10.7646,
+        "is_stop": false
+      },
+      {
+        "t": 93,
+        "action": 326,
+        "reward": 0.2756,
+        "rtg": 10.6672,
+        "is_stop": false
+      },
+      {
+        "t": 94,
+        "action": 521,
+        "reward": 0.179,
+        "rtg": 10.3917,
+        "is_stop": false
+      },
+      {
+        "t": 95,
+        "action": 489,
+        "reward": 0.2148,
+        "rtg": 10.2127,
+        "is_stop": false
+      },
+      {
+        "t": 96,
+        "action": 446,
+        "reward": 0.2034,
+        "rtg": 9.9979,
+        "is_stop": false
+      },
+      {
+        "t": 97,
+        "action": 269,
+        "reward": 0.0261,
+        "rtg": 9.7944,
+        "is_stop": false
+      },
+      {
+        "t": 98,
+        "action": 165,
+        "reward": 0.083,
+        "rtg": 9.7683,
+        "is_stop": false
+      },
+      {
+        "t": 99,
+        "action": 620,
+        "reward": 0.2421,
+        "rtg": 9.6853,
+        "is_stop": false
+      },
+      {
+        "t": 100,
+        "action": 601,
+        "reward": 0.1821,
+        "rtg": 9.4432,
+        "is_stop": false
+      },
+      {
+        "t": 101,
+        "action": 114,
+        "reward": 0.0514,
+        "rtg": 9.2611,
+        "is_stop": false
+      },
+      {
+        "t": 102,
+        "action": 57,
+        "reward": 0.0324,
+        "rtg": 9.2097,
+        "is_stop": false
+      },
+      {
+        "t": 103,
+        "action": 136,
+        "reward": 0.0299,
+        "rtg": 9.1773,
+        "is_stop": false
+      },
+      {
+        "t": 104,
+        "action": 189,
+        "reward": 0.0917,
+        "rtg": 9.1473,
+        "is_stop": false
+      },
+      {
+        "t": 105,
+        "action": 198,
+        "reward": 0.0765,
+        "rtg": 9.0556,
+        "is_stop": false
+      },
+      {
+        "t": 106,
+        "action": 525,
+        "reward": 0.184,
+        "rtg": 8.9791,
+        "is_stop": false
+      },
+      {
+        "t": 107,
+        "action": 76,
+        "reward": 0.0333,
+        "rtg": 8.7951,
+        "is_stop": false
+      },
+      {
+        "t": 108,
+        "action": 484,
+        "reward": 0.2327,
+        "rtg": 8.7618,
+        "is_stop": false
+      },
+      {
+        "t": 109,
+        "action": 478,
+        "reward": 0.186,
+        "rtg": 8.5291,
+        "is_stop": false
+      },
+      {
+        "t": 110,
+        "action": 581,
+        "reward": 0.1785,
+        "rtg": 8.3432,
+        "is_stop": false
+      },
+      {
+        "t": 111,
+        "action": 318,
+        "reward": 0.035,
+        "rtg": 8.1647,
+        "is_stop": false
+      },
+      {
+        "t": 112,
+        "action": 13,
+        "reward": 0.0306,
+        "rtg": 8.1297,
+        "is_stop": false
+      },
+      {
+        "t": 113,
+        "action": 146,
+        "reward": 0.1009,
+        "rtg": 8.0991,
+        "is_stop": false
+      },
+      {
+        "t": 114,
+        "action": 344,
+        "reward": 0.1338,
+        "rtg": 7.9982,
+        "is_stop": false
+      },
+      {
+        "t": 115,
+        "action": 433,
+        "reward": 0.3028,
+        "rtg": 7.8644,
+        "is_stop": false
+      },
+      {
+        "t": 116,
+        "action": 142,
+        "reward": 0.1317,
+        "rtg": 7.5616,
+        "is_stop": false
+      },
+      {
+        "t": 117,
+        "action": 375,
+        "reward": 0.232,
+        "rtg": 7.4299,
+        "is_stop": false
+      },
+      {
+        "t": 118,
+        "action": 552,
+        "reward": 0.2296,
+        "rtg": 7.1979,
+        "is_stop": false
+      },
+      {
+        "t": 119,
+        "action": 99,
+        "reward": 0.0827,
+        "rtg": 6.9683,
+        "is_stop": false
+      },
+      {
+        "t": 120,
+        "action": 292,
+        "reward": 0.0135,
+        "rtg": 6.8856,
+        "is_stop": false
+      },
+      {
+        "t": 121,
+        "action": 2,
+        "reward": 0.0956,
+        "rtg": 6.8721,
+        "is_stop": false
+      },
+      {
+        "t": 122,
+        "action": 606,
+        "reward": 0.146,
+        "rtg": 6.7765,
+        "is_stop": false
+      },
+      {
+        "t": 123,
+        "action": 466,
+        "reward": 0.3271,
+        "rtg": 6.6305,
+        "is_stop": false
+      },
+      {
+        "t": 124,
+        "action": 560,
+        "reward": 0.152,
+        "rtg": 6.3034,
+        "is_stop": false
+      },
+      {
+        "t": 125,
+        "action": 465,
+        "reward": 0.1378,
+        "rtg": 6.1513,
+        "is_stop": false
+      },
+      {
+        "t": 126,
+        "action": 170,
+        "reward": 0.0731,
+        "rtg": 6.0135,
+        "is_stop": false
+      },
+      {
+        "t": 127,
+        "action": 624,
+        "reward": 0.3212,
+        "rtg": 5.9404,
+        "is_stop": false
+      },
+      {
+        "t": 128,
+        "action": 332,
+        "reward": 0.1932,
+        "rtg": 5.6192,
+        "is_stop": false
+      },
+      {
+        "t": 129,
+        "action": 497,
+        "reward": 0.1585,
+        "rtg": 5.426,
+        "is_stop": false
+      },
+      {
+        "t": 130,
+        "action": 118,
+        "reward": 0.0636,
+        "rtg": 5.2675,
+        "is_stop": false
+      },
+      {
+        "t": 131,
+        "action": 337,
+        "reward": 0.1279,
+        "rtg": 5.2039,
+        "is_stop": false
+      },
+      {
+        "t": 132,
+        "action": 590,
+        "reward": 0.2217,
+        "rtg": 5.076,
+        "is_stop": false
+      },
+      {
+        "t": 133,
+        "action": 67,
+        "reward": 0.0356,
+        "rtg": 4.8542,
+        "is_stop": false
+      },
+      {
+        "t": 134,
+        "action": 566,
+        "reward": 0.1874,
+        "rtg": 4.8187,
+        "is_stop": false
+      },
+      {
+        "t": 135,
+        "action": 411,
+        "reward": 0.2638,
+        "rtg": 4.6313,
+        "is_stop": false
+      },
+      {
+        "t": 136,
+        "action": 196,
+        "reward": 0.1005,
+        "rtg": 4.3675,
+        "is_stop": false
+      },
+      {
+        "t": 137,
+        "action": 550,
+        "reward": 0.1953,
+        "rtg": 4.2669,
+        "is_stop": false
+      },
+      {
+        "t": 138,
+        "action": 423,
+        "reward": 0.1338,
+        "rtg": 4.0717,
+        "is_stop": false
+      },
+      {
+        "t": 139,
+        "action": 340,
+        "reward": 0.0591,
+        "rtg": 3.9378,
+        "is_stop": false
+      },
+      {
+        "t": 140,
+        "action": 402,
+        "reward": 0.1277,
+        "rtg": 3.8788,
+        "is_stop": false
+      },
+      {
+        "t": 141,
+        "action": 131,
+        "reward": 0.0446,
+        "rtg": 3.7511,
+        "is_stop": false
+      },
+      {
+        "t": 142,
+        "action": 101,
+        "reward": 0.1689,
+        "rtg": 3.7065,
+        "is_stop": false
+      },
+      {
+        "t": 143,
+        "action": 247,
+        "reward": 0.0433,
+        "rtg": 3.5375,
+        "is_stop": false
+      },
+      {
+        "t": 144,
+        "action": 510,
+        "reward": 0.3573,
+        "rtg": 3.4942,
+        "is_stop": false
+      },
+      {
+        "t": 145,
+        "action": 108,
+        "reward": 0.1611,
+        "rtg": 3.1369,
+        "is_stop": false
+      },
+      {
+        "t": 146,
+        "action": 363,
+        "reward": 0.0975,
+        "rtg": 2.9758,
+        "is_stop": false
+      },
+      {
+        "t": 147,
+        "action": 523,
+        "reward": 0.1574,
+        "rtg": 2.8783,
+        "is_stop": false
+      },
+      {
+        "t": 148,
+        "action": 618,
+        "reward": 0.2665,
+        "rtg": 2.7209,
+        "is_stop": false
+      },
+      {
+        "t": 149,
+        "action": 358,
+        "reward": 0.2144,
+        "rtg": 2.4545,
+        "is_stop": false
+      },
+      {
+        "t": 150,
+        "action": 617,
+        "reward": 0.3253,
+        "rtg": 2.2401,
+        "is_stop": false
+      },
+      {
+        "t": 151,
+        "action": 1,
+        "reward": 0.0953,
+        "rtg": 1.9148,
+        "is_stop": false
+      },
+      {
+        "t": 152,
+        "action": 406,
+        "reward": 0.1078,
+        "rtg": 1.8194,
+        "is_stop": false
+      },
+      {
+        "t": 153,
+        "action": 218,
+        "reward": 0.091,
+        "rtg": 1.7116,
+        "is_stop": false
+      },
+      {
+        "t": 154,
+        "action": 336,
+        "reward": 0.1389,
+        "rtg": 1.6206,
+        "is_stop": false
+      },
+      {
+        "t": 155,
+        "action": 14,
+        "reward": 0.03,
+        "rtg": 1.4816,
+        "is_stop": false
+      },
+      {
+        "t": 156,
+        "action": 73,
+        "reward": 0.0371,
+        "rtg": 1.4517,
+        "is_stop": false
+      },
+      {
+        "t": 157,
+        "action": 246,
+        "reward": 0.0414,
+        "rtg": 1.4146,
+        "is_stop": false
+      },
+      {
+        "t": 158,
+        "action": 598,
+        "reward": 0.331,
+        "rtg": 1.3732,
+        "is_stop": false
+      },
+      {
+        "t": 159,
+        "action": 568,
+        "reward": 0.1895,
+        "rtg": 1.0422,
+        "is_stop": false
+      },
+      {
+        "t": 160,
+        "action": 553,
+        "reward": 0.1723,
+        "rtg": 0.8526,
+        "is_stop": false
+      },
+      {
+        "t": 161,
+        "action": 210,
+        "reward": 0.0965,
+        "rtg": 0.6803,
+        "is_stop": false
+      },
+      {
+        "t": 162,
+        "action": 163,
+        "reward": 0.1865,
+        "rtg": 0.5838,
+        "is_stop": false
+      },
+      {
+        "t": 163,
+        "action": 40,
+        "reward": 0.1013,
+        "rtg": 0.3973,
+        "is_stop": false
+      },
+      {
+        "t": 164,
+        "action": 168,
+        "reward": 0.0679,
+        "rtg": 0.2961,
+        "is_stop": false
+      },
+      {
+        "t": 165,
+        "action": 607,
+        "reward": 0.2282,
+        "rtg": 0.2282,
+        "is_stop": false
+      },
+      {
+        "t": 166,
+        "action": -1,
+        "reward": 0.0,
+        "rtg": 0.0,
+        "is_stop": true
+      }
+    ]
+  },
+  {
+    "file": "random_traj_Lemon00_01_2.pkl",
+    "type": "random",
+    "total_steps": 162,
+    "rtg0": 20.5131,
+    "total_reward": 20.5131,
+    "initial_branch_count": 630,
+    "final_pruning_ratio": 0.2556,
+    "steps": [
+      {
+        "t": 0,
+        "action": 81,
+        "reward": 0.0325,
+        "rtg": 20.5131,
+        "is_stop": false
+      },
+      {
+        "t": 1,
+        "action": 89,
+        "reward": 0.0734,
+        "rtg": 20.4806,
+        "is_stop": false
+      },
+      {
+        "t": 2,
+        "action": 500,
+        "reward": 0.1051,
+        "rtg": 20.4072,
+        "is_stop": false
+      },
+      {
+        "t": 3,
+        "action": 71,
+        "reward": 0.1072,
+        "rtg": 20.3021,
+        "is_stop": false
+      },
+      {
+        "t": 4,
+        "action": 550,
+        "reward": 0.1965,
+        "rtg": 20.1949,
+        "is_stop": false
+      },
+      {
+        "t": 5,
+        "action": 132,
+        "reward": 0.1016,
+        "rtg": 19.9984,
+        "is_stop": false
+      },
+      {
+        "t": 6,
+        "action": 136,
+        "reward": 0.0301,
+        "rtg": 19.8968,
+        "is_stop": false
+      },
+      {
+        "t": 7,
+        "action": 492,
+        "reward": 0.2227,
+        "rtg": 19.8667,
+        "is_stop": false
+      },
+      {
+        "t": 8,
+        "action": 571,
+        "reward": 0.3261,
+        "rtg": 19.644,
+        "is_stop": false
+      },
+      {
+        "t": 9,
+        "action": 175,
+        "reward": 0.075,
+        "rtg": 19.3179,
+        "is_stop": false
+      },
+      {
+        "t": 10,
+        "action": 278,
+        "reward": 0.1116,
+        "rtg": 19.2429,
+        "is_stop": false
+      },
+      {
+        "t": 11,
+        "action": 551,
+        "reward": 0.1842,
+        "rtg": 19.1313,
+        "is_stop": false
+      },
+      {
+        "t": 12,
+        "action": 441,
+        "reward": 0.2857,
+        "rtg": 18.947,
+        "is_stop": false
+      },
+      {
+        "t": 13,
+        "action": 223,
+        "reward": 0.1414,
+        "rtg": 18.6614,
+        "is_stop": false
+      },
+      {
+        "t": 14,
+        "action": 566,
+        "reward": 0.1886,
+        "rtg": 18.52,
+        "is_stop": false
+      },
+      {
+        "t": 15,
+        "action": 212,
+        "reward": 0.1053,
+        "rtg": 18.3314,
+        "is_stop": false
+      },
+      {
+        "t": 16,
+        "action": 329,
+        "reward": 0.1931,
+        "rtg": 18.2261,
+        "is_stop": false
+      },
+      {
+        "t": 17,
+        "action": 419,
+        "reward": 0.2259,
+        "rtg": 18.033,
+        "is_stop": false
+      },
+      {
+        "t": 18,
+        "action": 393,
+        "reward": 0.1707,
+        "rtg": 17.8071,
+        "is_stop": false
+      },
+      {
+        "t": 19,
+        "action": 462,
+        "reward": 0.1539,
+        "rtg": 17.6363,
+        "is_stop": false
+      },
+      {
+        "t": 20,
+        "action": 546,
+        "reward": 0.0848,
+        "rtg": 17.4824,
+        "is_stop": false
+      },
+      {
+        "t": 21,
+        "action": 477,
+        "reward": 0.2257,
+        "rtg": 17.3976,
+        "is_stop": false
+      },
+      {
+        "t": 22,
+        "action": 127,
+        "reward": 0.0385,
+        "rtg": 17.1719,
+        "is_stop": false
+      },
+      {
+        "t": 23,
+        "action": 263,
+        "reward": 0.0411,
+        "rtg": 17.1334,
+        "is_stop": false
+      },
+      {
+        "t": 24,
+        "action": 240,
+        "reward": 0.0295,
+        "rtg": 17.0923,
+        "is_stop": false
+      },
+      {
+        "t": 25,
+        "action": 66,
+        "reward": 0.0398,
+        "rtg": 17.0629,
+        "is_stop": false
+      },
+      {
+        "t": 26,
+        "action": 361,
+        "reward": 0.1196,
+        "rtg": 17.0231,
+        "is_stop": false
+      },
+      {
+        "t": 27,
+        "action": 22,
+        "reward": 0.0249,
+        "rtg": 16.9035,
+        "is_stop": false
+      },
+      {
+        "t": 28,
+        "action": 596,
+        "reward": 0.2406,
+        "rtg": 16.8786,
+        "is_stop": false
+      },
+      {
+        "t": 29,
+        "action": 248,
+        "reward": 0.0444,
+        "rtg": 16.638,
+        "is_stop": false
+      },
+      {
+        "t": 30,
+        "action": 237,
+        "reward": 0.0996,
+        "rtg": 16.5935,
+        "is_stop": false
+      },
+      {
+        "t": 31,
+        "action": 8,
+        "reward": 0.0137,
+        "rtg": 16.4939,
+        "is_stop": false
+      },
+      {
+        "t": 32,
+        "action": 77,
+        "reward": 0.0356,
+        "rtg": 16.4803,
+        "is_stop": false
+      },
+      {
+        "t": 33,
+        "action": 63,
+        "reward": 0.1101,
+        "rtg": 16.4447,
+        "is_stop": false
+      },
+      {
+        "t": 34,
+        "action": 252,
+        "reward": 0.1254,
+        "rtg": 16.3346,
+        "is_stop": false
+      },
+      {
+        "t": 35,
+        "action": 75,
+        "reward": 0.0353,
+        "rtg": 16.2092,
+        "is_stop": false
+      },
+      {
+        "t": 36,
+        "action": 35,
+        "reward": 0.0907,
+        "rtg": 16.1739,
+        "is_stop": false
+      },
+      {
+        "t": 37,
+        "action": 363,
+        "reward": 0.0984,
+        "rtg": 16.0832,
+        "is_stop": false
+      },
+      {
+        "t": 38,
+        "action": 82,
+        "reward": 0.0307,
+        "rtg": 15.9848,
+        "is_stop": false
+      },
+      {
+        "t": 39,
+        "action": 563,
+        "reward": 0.2221,
+        "rtg": 15.9542,
+        "is_stop": false
+      },
+      {
+        "t": 40,
+        "action": 266,
+        "reward": 0.0313,
+        "rtg": 15.732,
+        "is_stop": false
+      },
+      {
+        "t": 41,
+        "action": 310,
+        "reward": 0.032,
+        "rtg": 15.7007,
+        "is_stop": false
+      },
+      {
+        "t": 42,
+        "action": 533,
+        "reward": 0.1543,
+        "rtg": 15.6687,
+        "is_stop": false
+      },
+      {
+        "t": 43,
+        "action": 238,
+        "reward": 0.0316,
+        "rtg": 15.5144,
+        "is_stop": false
+      },
+      {
+        "t": 44,
+        "action": 597,
+        "reward": 0.2326,
+        "rtg": 15.4828,
+        "is_stop": false
+      },
+      {
+        "t": 45,
+        "action": 150,
+        "reward": 0.0692,
+        "rtg": 15.2502,
+        "is_stop": false
+      },
+      {
+        "t": 46,
+        "action": 522,
+        "reward": 0.1705,
+        "rtg": 15.181,
+        "is_stop": false
+      },
+      {
+        "t": 47,
+        "action": 274,
+        "reward": 0.1713,
+        "rtg": 15.0104,
+        "is_stop": false
+      },
+      {
+        "t": 48,
+        "action": 524,
+        "reward": 0.257,
+        "rtg": 14.8391,
+        "is_stop": false
+      },
+      {
+        "t": 49,
+        "action": 451,
+        "reward": 0.2816,
+        "rtg": 14.5822,
+        "is_stop": false
+      },
+      {
+        "t": 50,
+        "action": 211,
+        "reward": 0.1069,
+        "rtg": 14.3006,
+        "is_stop": false
+      },
+      {
+        "t": 51,
+        "action": 108,
+        "reward": 0.16,
+        "rtg": 14.1937,
+        "is_stop": false
+      },
+      {
+        "t": 52,
+        "action": 112,
+        "reward": 0.0541,
+        "rtg": 14.0337,
+        "is_stop": false
+      },
+      {
+        "t": 53,
+        "action": 482,
+        "reward": 0.2969,
+        "rtg": 13.9796,
+        "is_stop": false
+      },
+      {
+        "t": 54,
+        "action": 398,
+        "reward": 0.1534,
+        "rtg": 13.6827,
+        "is_stop": false
+      },
+      {
+        "t": 55,
+        "action": 474,
+        "reward": 0.1894,
+        "rtg": 13.5293,
+        "is_stop": false
+      },
+      {
+        "t": 56,
+        "action": 460,
+        "reward": 0.1903,
+        "rtg": 13.3399,
+        "is_stop": false
+      },
+      {
+        "t": 57,
+        "action": 527,
+        "reward": 0.1628,
+        "rtg": 13.1496,
+        "is_stop": false
+      },
+      {
+        "t": 58,
+        "action": 59,
+        "reward": 0.0378,
+        "rtg": 12.9868,
+        "is_stop": false
+      },
+      {
+        "t": 59,
+        "action": 115,
+        "reward": 0.0497,
+        "rtg": 12.9491,
+        "is_stop": false
+      },
+      {
+        "t": 60,
+        "action": 69,
+        "reward": 0.0318,
+        "rtg": 12.8993,
+        "is_stop": false
+      },
+      {
+        "t": 61,
+        "action": 455,
+        "reward": 0.2051,
+        "rtg": 12.8675,
+        "is_stop": false
+      },
+      {
+        "t": 62,
+        "action": 385,
+        "reward": 0.0802,
+        "rtg": 12.6625,
+        "is_stop": false
+      },
+      {
+        "t": 63,
+        "action": 129,
+        "reward": 0.1125,
+        "rtg": 12.5823,
+        "is_stop": false
+      },
+      {
+        "t": 64,
+        "action": 289,
+        "reward": 0.0187,
+        "rtg": 12.4698,
+        "is_stop": false
+      },
+      {
+        "t": 65,
+        "action": 221,
+        "reward": 0.1874,
+        "rtg": 12.4511,
+        "is_stop": false
+      },
+      {
+        "t": 66,
+        "action": 219,
+        "reward": 0.0893,
+        "rtg": 12.2638,
+        "is_stop": false
+      },
+      {
+        "t": 67,
+        "action": 617,
+        "reward": 0.3258,
+        "rtg": 12.1744,
+        "is_stop": false
+      },
+      {
+        "t": 68,
+        "action": 515,
+        "reward": 0.2389,
+        "rtg": 11.8486,
+        "is_stop": false
+      },
+      {
+        "t": 69,
+        "action": 165,
+        "reward": 0.0832,
+        "rtg": 11.6097,
+        "is_stop": false
+      },
+      {
+        "t": 70,
+        "action": 487,
+        "reward": 0.2719,
+        "rtg": 11.5265,
+        "is_stop": false
+      },
+      {
+        "t": 71,
+        "action": 213,
+        "reward": 0.1818,
+        "rtg": 11.2545,
+        "is_stop": false
+      },
+      {
+        "t": 72,
+        "action": 326,
+        "reward": 0.2772,
+        "rtg": 11.0727,
+        "is_stop": false
+      },
+      {
+        "t": 73,
+        "action": 538,
+        "reward": 0.0969,
+        "rtg": 10.7955,
+        "is_stop": false
+      },
+      {
+        "t": 74,
+        "action": 295,
+        "reward": 0.1254,
+        "rtg": 10.6987,
+        "is_stop": false
+      },
+      {
+        "t": 75,
+        "action": 91,
+        "reward": 0.0834,
+        "rtg": 10.5733,
+        "is_stop": false
+      },
+      {
+        "t": 76,
+        "action": 516,
+        "reward": 0.2347,
+        "rtg": 10.4898,
+        "is_stop": false
+      },
+      {
+        "t": 77,
+        "action": 118,
+        "reward": 0.0637,
+        "rtg": 10.2551,
+        "is_stop": false
+      },
+      {
+        "t": 78,
+        "action": 55,
+        "reward": 0.1058,
+        "rtg": 10.1915,
+        "is_stop": false
+      },
+      {
+        "t": 79,
+        "action": 17,
+        "reward": 0.1017,
+        "rtg": 10.0857,
+        "is_stop": false
+      },
+      {
+        "t": 80,
+        "action": 114,
+        "reward": 0.0513,
+        "rtg": 9.984,
+        "is_stop": false
+      },
+      {
+        "t": 81,
+        "action": 286,
+        "reward": 0.089,
+        "rtg": 9.9327,
+        "is_stop": false
+      },
+      {
+        "t": 82,
+        "action": 199,
+        "reward": 0.073,
+        "rtg": 9.8437,
+        "is_stop": false
+      },
+      {
+        "t": 83,
+        "action": 480,
+        "reward": 0.1725,
+        "rtg": 9.7707,
+        "is_stop": false
+      },
+      {
+        "t": 84,
+        "action": 579,
+        "reward": 0.124,
+        "rtg": 9.5982,
+        "is_stop": false
+      },
+      {
+        "t": 85,
+        "action": 574,
+        "reward": 0.1886,
+        "rtg": 9.4741,
+        "is_stop": false
+      },
+      {
+        "t": 86,
+        "action": 259,
+        "reward": 0.0403,
+        "rtg": 9.2856,
+        "is_stop": false
+      },
+      {
+        "t": 87,
+        "action": 473,
+        "reward": 0.1902,
+        "rtg": 9.2452,
+        "is_stop": false
+      },
+      {
+        "t": 88,
+        "action": 70,
+        "reward": 0.0307,
+        "rtg": 9.055,
+        "is_stop": false
+      },
+      {
+        "t": 89,
+        "action": 198,
+        "reward": 0.0766,
+        "rtg": 9.0243,
+        "is_stop": false
+      },
+      {
+        "t": 90,
+        "action": 449,
+        "reward": 0.1719,
+        "rtg": 8.9477,
+        "is_stop": false
+      },
+      {
+        "t": 91,
+        "action": 3,
+        "reward": 0.0904,
+        "rtg": 8.7757,
+        "is_stop": false
+      },
+      {
+        "t": 92,
+        "action": 466,
+        "reward": 0.3263,
+        "rtg": 8.6853,
+        "is_stop": false
+      },
+      {
+        "t": 93,
+        "action": 324,
+        "reward": 0.0194,
+        "rtg": 8.359,
+        "is_stop": false
+      },
+      {
+        "t": 94,
+        "action": 552,
+        "reward": 0.2313,
+        "rtg": 8.3396,
+        "is_stop": false
+      },
+      {
+        "t": 95,
+        "action": 348,
+        "reward": 0.0422,
+        "rtg": 8.1083,
+        "is_stop": false
+      },
+      {
+        "t": 96,
+        "action": 511,
+        "reward": 0.2655,
+        "rtg": 8.0661,
+        "is_stop": false
+      },
+      {
+        "t": 97,
+        "action": 593,
+        "reward": 0.1858,
+        "rtg": 7.8006,
+        "is_stop": false
+      },
+      {
+        "t": 98,
+        "action": 189,
+        "reward": 0.0921,
+        "rtg": 7.6148,
+        "is_stop": false
+      },
+      {
+        "t": 99,
+        "action": 234,
+        "reward": 0.0637,
+        "rtg": 7.5227,
+        "is_stop": false
+      },
+      {
+        "t": 100,
+        "action": 364,
+        "reward": 0.1061,
+        "rtg": 7.459,
+        "is_stop": false
+      },
+      {
+        "t": 101,
+        "action": 271,
+        "reward": 0.0232,
+        "rtg": 7.3529,
+        "is_stop": false
+      },
+      {
+        "t": 102,
+        "action": 72,
+        "reward": 0.0389,
+        "rtg": 7.3297,
+        "is_stop": false
+      },
+      {
+        "t": 103,
+        "action": 78,
+        "reward": 0.1033,
+        "rtg": 7.2908,
+        "is_stop": false
+      },
+      {
+        "t": 104,
+        "action": 387,
+        "reward": 0.3141,
+        "rtg": 7.1875,
+        "is_stop": false
+      },
+      {
+        "t": 105,
+        "action": 68,
+        "reward": 0.038,
+        "rtg": 6.8734,
+        "is_stop": false
+      },
+      {
+        "t": 106,
+        "action": 58,
+        "reward": 0.0367,
+        "rtg": 6.8354,
+        "is_stop": false
+      },
+      {
+        "t": 107,
+        "action": 592,
+        "reward": 0.2144,
+        "rtg": 6.7987,
+        "is_stop": false
+      },
+      {
+        "t": 108,
+        "action": 623,
+        "reward": 0.225,
+        "rtg": 6.5843,
+        "is_stop": false
+      },
+      {
+        "t": 109,
+        "action": 197,
+        "reward": 0.0737,
+        "rtg": 6.3593,
+        "is_stop": false
+      },
+      {
+        "t": 110,
+        "action": 74,
+        "reward": 0.0364,
+        "rtg": 6.2856,
+        "is_stop": false
+      },
+      {
+        "t": 111,
+        "action": 106,
+        "reward": 0.0908,
+        "rtg": 6.2492,
+        "is_stop": false
+      },
+      {
+        "t": 112,
+        "action": 241,
+        "reward": 0.028,
+        "rtg": 6.1584,
+        "is_stop": false
+      },
+      {
+        "t": 113,
+        "action": 94,
+        "reward": 0.1641,
+        "rtg": 6.1304,
+        "is_stop": false
+      },
+      {
+        "t": 114,
+        "action": 93,
+        "reward": 0.0789,
+        "rtg": 5.9663,
+        "is_stop": false
+      },
+      {
+        "t": 115,
+        "action": 305,
+        "reward": 0.0624,
+        "rtg": 5.8874,
+        "is_stop": false
+      },
+      {
+        "t": 116,
+        "action": 507,
+        "reward": 0.0587,
+        "rtg": 5.825,
+        "is_stop": false
+      },
+      {
+        "t": 117,
+        "action": 159,
+        "reward": 0.0395,
+        "rtg": 5.7663,
+        "is_stop": false
+      },
+      {
+        "t": 118,
+        "action": 320,
+        "reward": 0.0259,
+        "rtg": 5.7268,
+        "is_stop": false
+      },
+      {
+        "t": 119,
+        "action": 372,
+        "reward": 0.2148,
+        "rtg": 5.7009,
+        "is_stop": false
+      },
+      {
+        "t": 120,
+        "action": 381,
+        "reward": 0.2064,
+        "rtg": 5.4861,
+        "is_stop": false
+      },
+      {
+        "t": 121,
+        "action": 25,
+        "reward": 0.0237,
+        "rtg": 5.2797,
+        "is_stop": false
+      },
+      {
+        "t": 122,
+        "action": 400,
+        "reward": 0.1503,
+        "rtg": 5.2561,
+        "is_stop": false
+      },
+      {
+        "t": 123,
+        "action": 48,
+        "reward": 0.1033,
+        "rtg": 5.1057,
+        "is_stop": false
+      },
+      {
+        "t": 124,
+        "action": 279,
+        "reward": 0.1115,
+        "rtg": 5.0024,
+        "is_stop": false
+      },
+      {
+        "t": 125,
+        "action": 423,
+        "reward": 0.1349,
+        "rtg": 4.891,
+        "is_stop": false
+      },
+      {
+        "t": 126,
+        "action": 378,
+        "reward": 0.1817,
+        "rtg": 4.756,
+        "is_stop": false
+      },
+      {
+        "t": 127,
+        "action": 368,
+        "reward": 0.1187,
+        "rtg": 4.5743,
+        "is_stop": false
+      },
+      {
+        "t": 128,
+        "action": 342,
+        "reward": 0.174,
+        "rtg": 4.4556,
+        "is_stop": false
+      },
+      {
+        "t": 129,
+        "action": 207,
+        "reward": 0.0929,
+        "rtg": 4.2817,
+        "is_stop": false
+      },
+      {
+        "t": 130,
+        "action": 607,
+        "reward": 0.2288,
+        "rtg": 4.1887,
+        "is_stop": false
+      },
+      {
+        "t": 131,
+        "action": 174,
+        "reward": 0.0721,
+        "rtg": 3.9599,
+        "is_stop": false
+      },
+      {
+        "t": 132,
+        "action": 142,
+        "reward": 0.1323,
+        "rtg": 3.8878,
+        "is_stop": false
+      },
+      {
+        "t": 133,
+        "action": 436,
+        "reward": 0.258,
+        "rtg": 3.7555,
+        "is_stop": false
+      },
+      {
+        "t": 134,
+        "action": 468,
+        "reward": 0.3347,
+        "rtg": 3.4976,
+        "is_stop": false
+      },
+      {
+        "t": 135,
+        "action": 209,
+        "reward": 0.1001,
+        "rtg": 3.1628,
+        "is_stop": false
+      },
+      {
+        "t": 136,
+        "action": 163,
+        "reward": 0.1861,
+        "rtg": 3.0627,
+        "is_stop": false
+      },
+      {
+        "t": 137,
+        "action": 180,
+        "reward": 0.2387,
+        "rtg": 2.8767,
+        "is_stop": false
+      },
+      {
+        "t": 138,
+        "action": 270,
+        "reward": 0.0222,
+        "rtg": 2.6379,
+        "is_stop": false
+      },
+      {
+        "t": 139,
+        "action": 95,
+        "reward": 0.0727,
+        "rtg": 2.6157,
+        "is_stop": false
+      },
+      {
+        "t": 140,
+        "action": 444,
+        "reward": 0.2703,
+        "rtg": 2.543,
+        "is_stop": false
+      },
+      {
+        "t": 141,
+        "action": 429,
+        "reward": 0.1143,
+        "rtg": 2.2726,
+        "is_stop": false
+      },
+      {
+        "t": 142,
+        "action": 204,
+        "reward": 0.0828,
+        "rtg": 2.1583,
+        "is_stop": false
+      },
+      {
+        "t": 143,
+        "action": 314,
+        "reward": 0.0292,
+        "rtg": 2.0755,
+        "is_stop": false
+      },
+      {
+        "t": 144,
+        "action": 218,
+        "reward": 0.0913,
+        "rtg": 2.0463,
+        "is_stop": false
+      },
+      {
+        "t": 145,
+        "action": 620,
+        "reward": 0.2434,
+        "rtg": 1.955,
+        "is_stop": false
+      },
+      {
+        "t": 146,
+        "action": 505,
+        "reward": 0.1126,
+        "rtg": 1.7115,
+        "is_stop": false
+      },
+      {
+        "t": 147,
+        "action": 627,
+        "reward": 0.2229,
+        "rtg": 1.5989,
+        "is_stop": false
+      },
+      {
+        "t": 148,
+        "action": 44,
+        "reward": 0.025,
+        "rtg": 1.3761,
+        "is_stop": false
+      },
+      {
+        "t": 149,
+        "action": 6,
+        "reward": 0.0194,
+        "rtg": 1.3511,
+        "is_stop": false
+      },
+      {
+        "t": 150,
+        "action": 318,
+        "reward": 0.0353,
+        "rtg": 1.3317,
+        "is_stop": false
+      },
+      {
+        "t": 151,
+        "action": 422,
+        "reward": 0.132,
+        "rtg": 1.2964,
+        "is_stop": false
+      },
+      {
+        "t": 152,
+        "action": 388,
+        "reward": 0.2645,
+        "rtg": 1.1644,
+        "is_stop": false
+      },
+      {
+        "t": 153,
+        "action": 65,
+        "reward": 0.0396,
+        "rtg": 0.8999,
+        "is_stop": false
+      },
+      {
+        "t": 154,
+        "action": 46,
+        "reward": 0.0196,
+        "rtg": 0.8603,
+        "is_stop": false
+      },
+      {
+        "t": 155,
+        "action": 373,
+        "reward": 0.2392,
+        "rtg": 0.8407,
+        "is_stop": false
+      },
+      {
+        "t": 156,
+        "action": 154,
+        "reward": 0.0577,
+        "rtg": 0.6015,
+        "is_stop": false
+      },
+      {
+        "t": 157,
+        "action": 353,
+        "reward": 0.2338,
+        "rtg": 0.5438,
+        "is_stop": false
+      },
+      {
+        "t": 158,
+        "action": 187,
+        "reward": 0.1818,
+        "rtg": 0.31,
+        "is_stop": false
+      },
+      {
+        "t": 159,
+        "action": 100,
+        "reward": 0.078,
+        "rtg": 0.1282,
+        "is_stop": false
+      },
+      {
+        "t": 160,
+        "action": 253,
+        "reward": 0.0502,
+        "rtg": 0.0502,
+        "is_stop": false
+      },
+      {
+        "t": 161,
+        "action": -1,
+        "reward": 0.0,
+        "rtg": 0.0,
+        "is_stop": true
+      }
+    ]
+  },
+  {
+    "file": "random_traj_Lemon00_01_3.pkl",
+    "type": "random",
+    "total_steps": 182,
+    "rtg0": 23.7398,
+    "total_reward": 23.7398,
+    "initial_branch_count": 630,
+    "final_pruning_ratio": 0.2873,
+    "steps": [
+      {
+        "t": 0,
+        "action": 251,
+        "reward": 0.0475,
+        "rtg": 23.7398,
+        "is_stop": false
+      },
+      {
+        "t": 1,
+        "action": 380,
+        "reward": 0.1908,
+        "rtg": 23.6923,
+        "is_stop": false
+      },
+      {
+        "t": 2,
+        "action": 293,
+        "reward": 0.1909,
+        "rtg": 23.5015,
+        "is_stop": false
+      },
+      {
+        "t": 3,
+        "action": 162,
+        "reward": 0.2723,
+        "rtg": 23.3106,
+        "is_stop": false
+      },
+      {
+        "t": 4,
+        "action": 453,
+        "reward": 0.2179,
+        "rtg": 23.0382,
+        "is_stop": false
+      },
+      {
+        "t": 5,
+        "action": 562,
+        "reward": 0.1208,
+        "rtg": 22.8203,
+        "is_stop": false
+      },
+      {
+        "t": 6,
+        "action": 313,
+        "reward": 0.0312,
+        "rtg": 22.6995,
+        "is_stop": false
+      },
+      {
+        "t": 7,
+        "action": 548,
+        "reward": 0.2514,
+        "rtg": 22.6684,
+        "is_stop": false
+      },
+      {
+        "t": 8,
+        "action": 9,
+        "reward": 0.013,
+        "rtg": 22.4169,
+        "is_stop": false
+      },
+      {
+        "t": 9,
+        "action": 577,
+        "reward": 0.1593,
+        "rtg": 22.4039,
+        "is_stop": false
+      },
+      {
+        "t": 10,
+        "action": 311,
+        "reward": 0.1243,
+        "rtg": 22.2447,
+        "is_stop": false
+      },
+      {
+        "t": 11,
+        "action": 108,
+        "reward": 0.1602,
+        "rtg": 22.1203,
+        "is_stop": false
+      },
+      {
+        "t": 12,
+        "action": 140,
+        "reward": 0.1753,
+        "rtg": 21.9601,
+        "is_stop": false
+      },
+      {
+        "t": 13,
+        "action": 276,
+        "reward": 0.1035,
+        "rtg": 21.7849,
+        "is_stop": false
+      },
+      {
+        "t": 14,
+        "action": 121,
+        "reward": 0.0358,
+        "rtg": 21.6813,
+        "is_stop": false
+      },
+      {
+        "t": 15,
+        "action": 112,
+        "reward": 0.0542,
+        "rtg": 21.6455,
+        "is_stop": false
+      },
+      {
+        "t": 16,
+        "action": 583,
+        "reward": 0.161,
+        "rtg": 21.5913,
+        "is_stop": false
+      },
+      {
+        "t": 17,
+        "action": 166,
+        "reward": 0.0717,
+        "rtg": 21.4303,
+        "is_stop": false
+      },
+      {
+        "t": 18,
+        "action": 288,
+        "reward": 0.0217,
+        "rtg": 21.3586,
+        "is_stop": false
+      },
+      {
+        "t": 19,
+        "action": 300,
+        "reward": 0.1422,
+        "rtg": 21.3369,
+        "is_stop": false
+      },
+      {
+        "t": 20,
+        "action": 223,
+        "reward": 0.1414,
+        "rtg": 21.1948,
+        "is_stop": false
+      },
+      {
+        "t": 21,
+        "action": 367,
+        "reward": 0.1608,
+        "rtg": 21.0534,
+        "is_stop": false
+      },
+      {
+        "t": 22,
+        "action": 216,
+        "reward": 0.0879,
+        "rtg": 20.8926,
+        "is_stop": false
+      },
+      {
+        "t": 23,
+        "action": 282,
+        "reward": 0.0252,
+        "rtg": 20.8047,
+        "is_stop": false
+      },
+      {
+        "t": 24,
+        "action": 538,
+        "reward": 0.0968,
+        "rtg": 20.7795,
+        "is_stop": false
+      },
+      {
+        "t": 25,
+        "action": 521,
+        "reward": 0.1793,
+        "rtg": 20.6827,
+        "is_stop": false
+      },
+      {
+        "t": 26,
+        "action": 268,
+        "reward": 0.0263,
+        "rtg": 20.5034,
+        "is_stop": false
+      },
+      {
+        "t": 27,
+        "action": 54,
+        "reward": 0.0325,
+        "rtg": 20.4771,
+        "is_stop": false
+      },
+      {
+        "t": 28,
+        "action": 97,
+        "reward": 0.0735,
+        "rtg": 20.4446,
+        "is_stop": false
+      },
+      {
+        "t": 29,
+        "action": 457,
+        "reward": 0.1737,
+        "rtg": 20.3711,
+        "is_stop": false
+      },
+      {
+        "t": 30,
+        "action": 302,
+        "reward": 0.0975,
+        "rtg": 20.1974,
+        "is_stop": false
+      },
+      {
+        "t": 31,
+        "action": 47,
+        "reward": 0.0218,
+        "rtg": 20.0998,
+        "is_stop": false
+      },
+      {
+        "t": 32,
+        "action": 4,
+        "reward": 0.0226,
+        "rtg": 20.0781,
+        "is_stop": false
+      },
+      {
+        "t": 33,
+        "action": 365,
+        "reward": 0.2068,
+        "rtg": 20.0554,
+        "is_stop": false
+      },
+      {
+        "t": 34,
+        "action": 143,
+        "reward": 0.1384,
+        "rtg": 19.8486,
+        "is_stop": false
+      },
+      {
+        "t": 35,
+        "action": 287,
+        "reward": 0.0907,
+        "rtg": 19.7102,
+        "is_stop": false
+      },
+      {
+        "t": 36,
+        "action": 178,
+        "reward": 0.259,
+        "rtg": 19.6195,
+        "is_stop": false
+      },
+      {
+        "t": 37,
+        "action": 484,
+        "reward": 0.2336,
+        "rtg": 19.3605,
+        "is_stop": false
+      },
+      {
+        "t": 38,
+        "action": 603,
+        "reward": 0.1561,
+        "rtg": 19.127,
+        "is_stop": false
+      },
+      {
+        "t": 39,
+        "action": 469,
+        "reward": 0.2816,
+        "rtg": 18.9708,
+        "is_stop": false
+      },
+      {
+        "t": 40,
+        "action": 615,
+        "reward": 0.3603,
+        "rtg": 18.6892,
+        "is_stop": false
+      },
+      {
+        "t": 41,
+        "action": 12,
+        "reward": 0.0276,
+        "rtg": 18.3289,
+        "is_stop": false
+      },
+      {
+        "t": 42,
+        "action": 124,
+        "reward": 0.104,
+        "rtg": 18.3013,
+        "is_stop": false
+      },
+      {
+        "t": 43,
+        "action": 83,
+        "reward": 0.0277,
+        "rtg": 18.1973,
+        "is_stop": false
+      },
+      {
+        "t": 44,
+        "action": 168,
+        "reward": 0.0684,
+        "rtg": 18.1696,
+        "is_stop": false
+      },
+      {
+        "t": 45,
+        "action": 602,
+        "reward": 0.1801,
+        "rtg": 18.1012,
+        "is_stop": false
+      },
+      {
+        "t": 46,
+        "action": 40,
+        "reward": 0.1023,
+        "rtg": 17.9211,
+        "is_stop": false
+      },
+      {
+        "t": 47,
+        "action": 413,
+        "reward": 0.2085,
+        "rtg": 17.8188,
+        "is_stop": false
+      },
+      {
+        "t": 48,
+        "action": 613,
+        "reward": 0.1165,
+        "rtg": 17.6103,
+        "is_stop": false
+      },
+      {
+        "t": 49,
+        "action": 169,
+        "reward": 0.0729,
+        "rtg": 17.4937,
+        "is_stop": false
+      },
+      {
+        "t": 50,
+        "action": 480,
+        "reward": 0.1733,
+        "rtg": 17.4208,
+        "is_stop": false
+      },
+      {
+        "t": 51,
+        "action": 145,
+        "reward": 0.1433,
+        "rtg": 17.2475,
+        "is_stop": false
+      },
+      {
+        "t": 52,
+        "action": 48,
+        "reward": 0.1036,
+        "rtg": 17.1042,
+        "is_stop": false
+      },
+      {
+        "t": 53,
+        "action": 350,
+        "reward": 0.2625,
+        "rtg": 17.0006,
+        "is_stop": false
+      },
+      {
+        "t": 54,
+        "action": 412,
+        "reward": 0.2827,
+        "rtg": 16.7381,
+        "is_stop": false
+      },
+      {
+        "t": 55,
+        "action": 45,
+        "reward": 0.0242,
+        "rtg": 16.4553,
+        "is_stop": false
+      },
+      {
+        "t": 56,
+        "action": 406,
+        "reward": 0.1088,
+        "rtg": 16.4311,
+        "is_stop": false
+      },
+      {
+        "t": 57,
+        "action": 240,
+        "reward": 0.0295,
+        "rtg": 16.3223,
+        "is_stop": false
+      },
+      {
+        "t": 58,
+        "action": 285,
+        "reward": 0.0608,
+        "rtg": 16.2928,
+        "is_stop": false
+      },
+      {
+        "t": 59,
+        "action": 118,
+        "reward": 0.064,
+        "rtg": 16.232,
+        "is_stop": false
+      },
+      {
+        "t": 60,
+        "action": 405,
+        "reward": 0.1375,
+        "rtg": 16.168,
+        "is_stop": false
+      },
+      {
+        "t": 61,
+        "action": 465,
+        "reward": 0.139,
+        "rtg": 16.0305,
+        "is_stop": false
+      },
+      {
+        "t": 62,
+        "action": 182,
+        "reward": 0.1586,
+        "rtg": 15.8916,
+        "is_stop": false
+      },
+      {
+        "t": 63,
+        "action": 272,
+        "reward": 0.1703,
+        "rtg": 15.733,
+        "is_stop": false
+      },
+      {
+        "t": 64,
+        "action": 191,
+        "reward": 0.0857,
+        "rtg": 15.5627,
+        "is_stop": false
+      },
+      {
+        "t": 65,
+        "action": 207,
+        "reward": 0.0931,
+        "rtg": 15.477,
+        "is_stop": false
+      },
+      {
+        "t": 66,
+        "action": 477,
+        "reward": 0.2265,
+        "rtg": 15.3839,
+        "is_stop": false
+      },
+      {
+        "t": 67,
+        "action": 29,
+        "reward": 0.0163,
+        "rtg": 15.1574,
+        "is_stop": false
+      },
+      {
+        "t": 68,
+        "action": 211,
+        "reward": 0.107,
+        "rtg": 15.1411,
+        "is_stop": false
+      },
+      {
+        "t": 69,
+        "action": 389,
+        "reward": 0.2636,
+        "rtg": 15.0341,
+        "is_stop": false
+      },
+      {
+        "t": 70,
+        "action": 481,
+        "reward": 0.1682,
+        "rtg": 14.7705,
+        "is_stop": false
+      },
+      {
+        "t": 71,
+        "action": 295,
+        "reward": 0.1255,
+        "rtg": 14.6023,
+        "is_stop": false
+      },
+      {
+        "t": 72,
+        "action": 319,
+        "reward": 0.0942,
+        "rtg": 14.4768,
+        "is_stop": false
+      },
+      {
+        "t": 73,
+        "action": 189,
+        "reward": 0.0924,
+        "rtg": 14.3826,
+        "is_stop": false
+      },
+      {
+        "t": 74,
+        "action": 127,
+        "reward": 0.0385,
+        "rtg": 14.2902,
+        "is_stop": false
+      },
+      {
+        "t": 75,
+        "action": 449,
+        "reward": 0.1725,
+        "rtg": 14.2517,
+        "is_stop": false
+      },
+      {
+        "t": 76,
+        "action": 46,
+        "reward": 0.0195,
+        "rtg": 14.0793,
+        "is_stop": false
+      },
+      {
+        "t": 77,
+        "action": 552,
+        "reward": 0.2315,
+        "rtg": 14.0597,
+        "is_stop": false
+      },
+      {
+        "t": 78,
+        "action": 263,
+        "reward": 0.0413,
+        "rtg": 13.8282,
+        "is_stop": false
+      },
+      {
+        "t": 79,
+        "action": 238,
+        "reward": 0.0315,
+        "rtg": 13.787,
+        "is_stop": false
+      },
+      {
+        "t": 80,
+        "action": 543,
+        "reward": 0.1605,
+        "rtg": 13.7555,
+        "is_stop": false
+      },
+      {
+        "t": 81,
+        "action": 419,
+        "reward": 0.2268,
+        "rtg": 13.595,
+        "is_stop": false
+      },
+      {
+        "t": 82,
+        "action": 366,
+        "reward": 0.2178,
+        "rtg": 13.3682,
+        "is_stop": false
+      },
+      {
+        "t": 83,
+        "action": 273,
+        "reward": 0.1255,
+        "rtg": 13.1504,
+        "is_stop": false
+      },
+      {
+        "t": 84,
+        "action": 266,
+        "reward": 0.0313,
+        "rtg": 13.0249,
+        "is_stop": false
+      },
+      {
+        "t": 85,
+        "action": 28,
+        "reward": 0.0211,
+        "rtg": 12.9936,
+        "is_stop": false
+      },
+      {
+        "t": 86,
+        "action": 232,
+        "reward": 0.0795,
+        "rtg": 12.9725,
+        "is_stop": false
+      },
+      {
+        "t": 87,
+        "action": 483,
+        "reward": 0.2193,
+        "rtg": 12.893,
+        "is_stop": false
+      },
+      {
+        "t": 88,
+        "action": 398,
+        "reward": 0.154,
+        "rtg": 12.6737,
+        "is_stop": false
+      },
+      {
+        "t": 89,
+        "action": 341,
+        "reward": 0.0635,
+        "rtg": 12.5197,
+        "is_stop": false
+      },
+      {
+        "t": 90,
+        "action": 84,
+        "reward": 0.0267,
+        "rtg": 12.4561,
+        "is_stop": false
+      },
+      {
+        "t": 91,
+        "action": 343,
+        "reward": 0.1153,
+        "rtg": 12.4295,
+        "is_stop": false
+      },
+      {
+        "t": 92,
+        "action": 430,
+        "reward": 0.101,
+        "rtg": 12.3142,
+        "is_stop": false
+      },
+      {
+        "t": 93,
+        "action": 614,
+        "reward": 0.3443,
+        "rtg": 12.2132,
+        "is_stop": false
+      },
+      {
+        "t": 94,
+        "action": 491,
+        "reward": 0.203,
+        "rtg": 11.8689,
+        "is_stop": false
+      },
+      {
+        "t": 95,
+        "action": 407,
+        "reward": 0.1042,
+        "rtg": 11.6659,
+        "is_stop": false
+      },
+      {
+        "t": 96,
+        "action": 34,
+        "reward": 0.019,
+        "rtg": 11.5617,
+        "is_stop": false
+      },
+      {
+        "t": 97,
+        "action": 141,
+        "reward": 0.2024,
+        "rtg": 11.5427,
+        "is_stop": false
+      },
+      {
+        "t": 98,
+        "action": 326,
+        "reward": 0.2787,
+        "rtg": 11.3403,
+        "is_stop": false
+      },
+      {
+        "t": 99,
+        "action": 219,
+        "reward": 0.0903,
+        "rtg": 11.0616,
+        "is_stop": false
+      },
+      {
+        "t": 100,
+        "action": 332,
+        "reward": 0.1956,
+        "rtg": 10.9714,
+        "is_stop": false
+      },
+      {
+        "t": 101,
+        "action": 51,
+        "reward": 0.0348,
+        "rtg": 10.7758,
+        "is_stop": false
+      },
+      {
+        "t": 102,
+        "action": 134,
+        "reward": 0.0324,
+        "rtg": 10.741,
+        "is_stop": false
+      },
+      {
+        "t": 103,
+        "action": 536,
+        "reward": 0.1219,
+        "rtg": 10.7086,
+        "is_stop": false
+      },
+      {
+        "t": 104,
+        "action": 433,
+        "reward": 0.3051,
+        "rtg": 10.5867,
+        "is_stop": false
+      },
+      {
+        "t": 105,
+        "action": 393,
+        "reward": 0.1716,
+        "rtg": 10.2816,
+        "is_stop": false
+      },
+      {
+        "t": 106,
+        "action": 542,
+        "reward": 0.1577,
+        "rtg": 10.11,
+        "is_stop": false
+      },
+      {
+        "t": 107,
+        "action": 146,
+        "reward": 0.1021,
+        "rtg": 9.9523,
+        "is_stop": false
+      },
+      {
+        "t": 108,
+        "action": 487,
+        "reward": 0.2735,
+        "rtg": 9.8502,
+        "is_stop": false
+      },
+      {
+        "t": 109,
+        "action": 237,
+        "reward": 0.1001,
+        "rtg": 9.5768,
+        "is_stop": false
+      },
+      {
+        "t": 110,
+        "action": 324,
+        "reward": 0.0194,
+        "rtg": 9.4767,
+        "is_stop": false
+      },
+      {
+        "t": 111,
+        "action": 59,
+        "reward": 0.0379,
+        "rtg": 9.4572,
+        "is_stop": false
+      },
+      {
+        "t": 112,
+        "action": 550,
+        "reward": 0.1978,
+        "rtg": 9.4193,
+        "is_stop": false
+      },
+      {
+        "t": 113,
+        "action": 2,
+        "reward": 0.0968,
+        "rtg": 9.2215,
+        "is_stop": false
+      },
+      {
+        "t": 114,
+        "action": 249,
+        "reward": 0.0452,
+        "rtg": 9.1246,
+        "is_stop": false
+      },
+      {
+        "t": 115,
+        "action": 463,
+        "reward": 0.1651,
+        "rtg": 9.0794,
+        "is_stop": false
+      },
+      {
+        "t": 116,
+        "action": 547,
+        "reward": 0.0929,
+        "rtg": 8.9143,
+        "is_stop": false
+      },
+      {
+        "t": 117,
+        "action": 89,
+        "reward": 0.0738,
+        "rtg": 8.8214,
+        "is_stop": false
+      },
+      {
+        "t": 118,
+        "action": 425,
+        "reward": 0.0952,
+        "rtg": 8.7476,
+        "is_stop": false
+      },
+      {
+        "t": 119,
+        "action": 400,
+        "reward": 0.151,
+        "rtg": 8.6524,
+        "is_stop": false
+      },
+      {
+        "t": 120,
+        "action": 200,
+        "reward": 0.0783,
+        "rtg": 8.5013,
+        "is_stop": false
+      },
+      {
+        "t": 121,
+        "action": 429,
+        "reward": 0.1149,
+        "rtg": 8.4231,
+        "is_stop": false
+      },
+      {
+        "t": 122,
+        "action": 545,
+        "reward": 0.1301,
+        "rtg": 8.3081,
+        "is_stop": false
+      },
+      {
+        "t": 123,
+        "action": 79,
+        "reward": 0.0343,
+        "rtg": 8.178,
+        "is_stop": false
+      },
+      {
+        "t": 124,
+        "action": 467,
+        "reward": 0.3404,
+        "rtg": 8.1437,
+        "is_stop": false
+      },
+      {
+        "t": 125,
+        "action": 580,
+        "reward": 0.2422,
+        "rtg": 7.8033,
+        "is_stop": false
+      },
+      {
+        "t": 126,
+        "action": 194,
+        "reward": 0.1721,
+        "rtg": 7.5611,
+        "is_stop": false
+      },
+      {
+        "t": 127,
+        "action": 333,
+        "reward": 0.1316,
+        "rtg": 7.389,
+        "is_stop": false
+      },
+      {
+        "t": 128,
+        "action": 201,
+        "reward": 0.1962,
+        "rtg": 7.2573,
+        "is_stop": false
+      },
+      {
+        "t": 129,
+        "action": 438,
+        "reward": 0.2611,
+        "rtg": 7.0612,
+        "is_stop": false
+      },
+      {
+        "t": 130,
+        "action": 265,
+        "reward": 0.1003,
+        "rtg": 6.8001,
+        "is_stop": false
+      },
+      {
+        "t": 131,
+        "action": 213,
+        "reward": 0.1827,
+        "rtg": 6.6998,
+        "is_stop": false
+      },
+      {
+        "t": 132,
+        "action": 262,
+        "reward": 0.04,
+        "rtg": 6.5171,
+        "is_stop": false
+      },
+      {
+        "t": 133,
+        "action": 460,
+        "reward": 0.1913,
+        "rtg": 6.4771,
+        "is_stop": false
+      },
+      {
+        "t": 134,
+        "action": 192,
+        "reward": 0.0912,
+        "rtg": 6.2858,
+        "is_stop": false
+      },
+      {
+        "t": 135,
+        "action": 369,
+        "reward": 0.1172,
+        "rtg": 6.1946,
+        "is_stop": false
+      },
+      {
+        "t": 136,
+        "action": 82,
+        "reward": 0.0307,
+        "rtg": 6.0774,
+        "is_stop": false
+      },
+      {
+        "t": 137,
+        "action": 125,
+        "reward": 0.1113,
+        "rtg": 6.0467,
+        "is_stop": false
+      },
+      {
+        "t": 138,
+        "action": 283,
+        "reward": 0.0272,
+        "rtg": 5.9354,
+        "is_stop": false
+      },
+      {
+        "t": 139,
+        "action": 446,
+        "reward": 0.2055,
+        "rtg": 5.9082,
+        "is_stop": false
+      },
+      {
+        "t": 140,
+        "action": 622,
+        "reward": 0.2143,
+        "rtg": 5.7026,
+        "is_stop": false
+      },
+      {
+        "t": 141,
+        "action": 253,
+        "reward": 0.0503,
+        "rtg": 5.4884,
+        "is_stop": false
+      },
+      {
+        "t": 142,
+        "action": 456,
+        "reward": 0.2172,
+        "rtg": 5.438,
+        "is_stop": false
+      },
+      {
+        "t": 143,
+        "action": 507,
+        "reward": 0.059,
+        "rtg": 5.2208,
+        "is_stop": false
+      },
+      {
+        "t": 144,
+        "action": 601,
+        "reward": 0.184,
+        "rtg": 5.1619,
+        "is_stop": false
+      },
+      {
+        "t": 145,
+        "action": 113,
+        "reward": 0.0568,
+        "rtg": 4.9779,
+        "is_stop": false
+      },
+      {
+        "t": 146,
+        "action": 417,
+        "reward": 0.1849,
+        "rtg": 4.9211,
+        "is_stop": false
+      },
+      {
+        "t": 147,
+        "action": 384,
+        "reward": 0.1001,
+        "rtg": 4.7362,
+        "is_stop": false
+      },
+      {
+        "t": 148,
+        "action": 202,
+        "reward": 0.1661,
+        "rtg": 4.6361,
+        "is_stop": false
+      },
+      {
+        "t": 149,
+        "action": 277,
+        "reward": 0.1553,
+        "rtg": 4.47,
+        "is_stop": false
+      },
+      {
+        "t": 150,
+        "action": 374,
+        "reward": 0.1624,
+        "rtg": 4.3147,
+        "is_stop": false
+      },
+      {
+        "t": 151,
+        "action": 568,
+        "reward": 0.1919,
+        "rtg": 4.1523,
+        "is_stop": false
+      },
+      {
+        "t": 152,
+        "action": 1,
+        "reward": 0.0969,
+        "rtg": 3.9604,
+        "is_stop": false
+      },
+      {
+        "t": 153,
+        "action": 205,
+        "reward": 0.0886,
+        "rtg": 3.8635,
+        "is_stop": false
+      },
+      {
+        "t": 154,
+        "action": 190,
+        "reward": 0.083,
+        "rtg": 3.7749,
+        "is_stop": false
+      },
+      {
+        "t": 155,
+        "action": 139,
+        "reward": 0.2522,
+        "rtg": 3.6919,
+        "is_stop": false
+      },
+      {
+        "t": 156,
+        "action": 304,
+        "reward": 0.0491,
+        "rtg": 3.4396,
+        "is_stop": false
+      },
+      {
+        "t": 157,
+        "action": 541,
+        "reward": 0.2151,
+        "rtg": 3.3905,
+        "is_stop": false
+      },
+      {
+        "t": 158,
+        "action": 402,
+        "reward": 0.1288,
+        "rtg": 3.1754,
+        "is_stop": false
+      },
+      {
+        "t": 159,
+        "action": 424,
+        "reward": 0.0965,
+        "rtg": 3.0466,
+        "is_stop": false
+      },
+      {
+        "t": 160,
+        "action": 461,
+        "reward": 0.1778,
+        "rtg": 2.9502,
+        "is_stop": false
+      },
+      {
+        "t": 161,
+        "action": 222,
+        "reward": 0.1583,
+        "rtg": 2.7724,
+        "is_stop": false
+      },
+      {
+        "t": 162,
+        "action": 329,
+        "reward": 0.1943,
+        "rtg": 2.6141,
+        "is_stop": false
+      },
+      {
+        "t": 163,
+        "action": 314,
+        "reward": 0.0293,
+        "rtg": 2.4198,
+        "is_stop": false
+      },
+      {
+        "t": 164,
+        "action": 315,
+        "reward": 0.0323,
+        "rtg": 2.3905,
+        "is_stop": false
+      },
+      {
+        "t": 165,
+        "action": 485,
+        "reward": 0.1949,
+        "rtg": 2.3582,
+        "is_stop": false
+      },
+      {
+        "t": 166,
+        "action": 147,
+        "reward": 0.0898,
+        "rtg": 2.1633,
+        "is_stop": false
+      },
+      {
+        "t": 167,
+        "action": 361,
+        "reward": 0.1202,
+        "rtg": 2.0735,
+        "is_stop": false
+      },
+      {
+        "t": 168,
+        "action": 339,
+        "reward": 0.1047,
+        "rtg": 1.9532,
+        "is_stop": false
+      },
+      {
+        "t": 169,
+        "action": 565,
+        "reward": 0.1821,
+        "rtg": 1.8485,
+        "is_stop": false
+      },
+      {
+        "t": 170,
+        "action": 567,
+        "reward": 0.1754,
+        "rtg": 1.6665,
+        "is_stop": false
+      },
+      {
+        "t": 171,
+        "action": 524,
+        "reward": 0.2581,
+        "rtg": 1.491,
+        "is_stop": false
+      },
+      {
+        "t": 172,
+        "action": 110,
+        "reward": 0.0843,
+        "rtg": 1.2329,
+        "is_stop": false
+      },
+      {
+        "t": 173,
+        "action": 476,
+        "reward": 0.228,
+        "rtg": 1.1486,
+        "is_stop": false
+      },
+      {
+        "t": 174,
+        "action": 60,
+        "reward": 0.043,
+        "rtg": 0.9206,
+        "is_stop": false
+      },
+      {
+        "t": 175,
+        "action": 197,
+        "reward": 0.074,
+        "rtg": 0.8776,
+        "is_stop": false
+      },
+      {
+        "t": 176,
+        "action": 372,
+        "reward": 0.2159,
+        "rtg": 0.8036,
+        "is_stop": false
+      },
+      {
+        "t": 177,
+        "action": 489,
+        "reward": 0.2169,
+        "rtg": 0.5877,
+        "is_stop": false
+      },
+      {
+        "t": 178,
+        "action": 462,
+        "reward": 0.1547,
+        "rtg": 0.3707,
+        "is_stop": false
+      },
+      {
+        "t": 179,
+        "action": 450,
+        "reward": 0.1615,
+        "rtg": 0.216,
+        "is_stop": false
+      },
+      {
+        "t": 180,
+        "action": 236,
+        "reward": 0.0545,
+        "rtg": 0.0545,
+        "is_stop": false
+      },
+      {
+        "t": 181,
+        "action": -1,
+        "reward": 0.0,
+        "rtg": 0.0,
+        "is_stop": true
+      }
+    ]
+  },
+  {
+    "file": "random_traj_Lemon00_01_4.pkl",
+    "type": "random",
+    "total_steps": 132,
+    "rtg0": 17.3524,
+    "total_reward": 17.3524,
+    "initial_branch_count": 630,
+    "final_pruning_ratio": 0.2079,
+    "steps": [
+      {
+        "t": 0,
+        "action": 241,
+        "reward": 0.0279,
+        "rtg": 17.3524,
+        "is_stop": false
+      },
+      {
+        "t": 1,
+        "action": 319,
+        "reward": 0.0941,
+        "rtg": 17.3245,
+        "is_stop": false
+      },
+      {
+        "t": 2,
+        "action": 231,
+        "reward": 0.1019,
+        "rtg": 17.2304,
+        "is_stop": false
+      },
+      {
+        "t": 3,
+        "action": 204,
+        "reward": 0.0827,
+        "rtg": 17.1285,
+        "is_stop": false
+      },
+      {
+        "t": 4,
+        "action": 151,
+        "reward": 0.0534,
+        "rtg": 17.0458,
+        "is_stop": false
+      },
+      {
+        "t": 5,
+        "action": 26,
+        "reward": 0.0893,
+        "rtg": 16.9924,
+        "is_stop": false
+      },
+      {
+        "t": 6,
+        "action": 49,
+        "reward": 0.0332,
+        "rtg": 16.9031,
+        "is_stop": false
+      },
+      {
+        "t": 7,
+        "action": 257,
+        "reward": 0.0927,
+        "rtg": 16.8699,
+        "is_stop": false
+      },
+      {
+        "t": 8,
+        "action": 495,
+        "reward": 0.2267,
+        "rtg": 16.7772,
+        "is_stop": false
+      },
+      {
+        "t": 9,
+        "action": 77,
+        "reward": 0.0355,
+        "rtg": 16.5506,
+        "is_stop": false
+      },
+      {
+        "t": 10,
+        "action": 476,
+        "reward": 0.2266,
+        "rtg": 16.515,
+        "is_stop": false
+      },
+      {
+        "t": 11,
+        "action": 434,
+        "reward": 0.3358,
+        "rtg": 16.2884,
+        "is_stop": false
+      },
+      {
+        "t": 12,
+        "action": 602,
+        "reward": 0.1791,
+        "rtg": 15.9526,
+        "is_stop": false
+      },
+      {
+        "t": 13,
+        "action": 205,
+        "reward": 0.0881,
+        "rtg": 15.7735,
+        "is_stop": false
+      },
+      {
+        "t": 14,
+        "action": 404,
+        "reward": 0.2091,
+        "rtg": 15.6854,
+        "is_stop": false
+      },
+      {
+        "t": 15,
+        "action": 521,
+        "reward": 0.1793,
+        "rtg": 15.4762,
+        "is_stop": false
+      },
+      {
+        "t": 16,
+        "action": 421,
+        "reward": 0.2402,
+        "rtg": 15.2969,
+        "is_stop": false
+      },
+      {
+        "t": 17,
+        "action": 259,
+        "reward": 0.0402,
+        "rtg": 15.0567,
+        "is_stop": false
+      },
+      {
+        "t": 18,
+        "action": 156,
+        "reward": 0.0527,
+        "rtg": 15.0165,
+        "is_stop": false
+      },
+      {
+        "t": 19,
+        "action": 6,
+        "reward": 0.0193,
+        "rtg": 14.9638,
+        "is_stop": false
+      },
+      {
+        "t": 20,
+        "action": 114,
+        "reward": 0.0513,
+        "rtg": 14.9445,
+        "is_stop": false
+      },
+      {
+        "t": 21,
+        "action": 453,
+        "reward": 0.218,
+        "rtg": 14.8932,
+        "is_stop": false
+      },
+      {
+        "t": 22,
+        "action": 235,
+        "reward": 0.0457,
+        "rtg": 14.6752,
+        "is_stop": false
+      },
+      {
+        "t": 23,
+        "action": 188,
+        "reward": 0.0984,
+        "rtg": 14.6295,
+        "is_stop": false
+      },
+      {
+        "t": 24,
+        "action": 554,
+        "reward": 0.1247,
+        "rtg": 14.5312,
+        "is_stop": false
+      },
+      {
+        "t": 25,
+        "action": 498,
+        "reward": 0.1372,
+        "rtg": 14.4064,
+        "is_stop": false
+      },
+      {
+        "t": 26,
+        "action": 55,
+        "reward": 0.1057,
+        "rtg": 14.2692,
+        "is_stop": false
+      },
+      {
+        "t": 27,
+        "action": 597,
+        "reward": 0.2321,
+        "rtg": 14.1636,
+        "is_stop": false
+      },
+      {
+        "t": 28,
+        "action": 272,
+        "reward": 0.1695,
+        "rtg": 13.9315,
+        "is_stop": false
+      },
+      {
+        "t": 29,
+        "action": 131,
+        "reward": 0.0445,
+        "rtg": 13.7621,
+        "is_stop": false
+      },
+      {
+        "t": 30,
+        "action": 492,
+        "reward": 0.2226,
+        "rtg": 13.7176,
+        "is_stop": false
+      },
+      {
+        "t": 31,
+        "action": 144,
+        "reward": 0.1223,
+        "rtg": 13.495,
+        "is_stop": false
+      },
+      {
+        "t": 32,
+        "action": 504,
+        "reward": 0.1427,
+        "rtg": 13.3727,
+        "is_stop": false
+      },
+      {
+        "t": 33,
+        "action": 575,
+        "reward": 0.1877,
+        "rtg": 13.23,
+        "is_stop": false
+      },
+      {
+        "t": 34,
+        "action": 607,
+        "reward": 0.2286,
+        "rtg": 13.0423,
+        "is_stop": false
+      },
+      {
+        "t": 35,
+        "action": 345,
+        "reward": 0.097,
+        "rtg": 12.8137,
+        "is_stop": false
+      },
+      {
+        "t": 36,
+        "action": 480,
+        "reward": 0.1724,
+        "rtg": 12.7167,
+        "is_stop": false
+      },
+      {
+        "t": 37,
+        "action": 549,
+        "reward": 0.2386,
+        "rtg": 12.5443,
+        "is_stop": false
+      },
+      {
+        "t": 38,
+        "action": 462,
+        "reward": 0.1539,
+        "rtg": 12.3057,
+        "is_stop": false
+      },
+      {
+        "t": 39,
+        "action": 599,
+        "reward": 0.2789,
+        "rtg": 12.1518,
+        "is_stop": false
+      },
+      {
+        "t": 40,
+        "action": 485,
+        "reward": 0.1937,
+        "rtg": 11.8728,
+        "is_stop": false
+      },
+      {
+        "t": 41,
+        "action": 173,
+        "reward": 0.0732,
+        "rtg": 11.6791,
+        "is_stop": false
+      },
+      {
+        "t": 42,
+        "action": 522,
+        "reward": 0.1701,
+        "rtg": 11.6059,
+        "is_stop": false
+      },
+      {
+        "t": 43,
+        "action": 491,
+        "reward": 0.2018,
+        "rtg": 11.4358,
+        "is_stop": false
+      },
+      {
+        "t": 44,
+        "action": 286,
+        "reward": 0.0888,
+        "rtg": 11.234,
+        "is_stop": false
+      },
+      {
+        "t": 45,
+        "action": 274,
+        "reward": 0.1706,
+        "rtg": 11.1452,
+        "is_stop": false
+      },
+      {
+        "t": 46,
+        "action": 306,
+        "reward": 0.0982,
+        "rtg": 10.9746,
+        "is_stop": false
+      },
+      {
+        "t": 47,
+        "action": 577,
+        "reward": 0.1592,
+        "rtg": 10.8764,
+        "is_stop": false
+      },
+      {
+        "t": 48,
+        "action": 537,
+        "reward": 0.0931,
+        "rtg": 10.7172,
+        "is_stop": false
+      },
+      {
+        "t": 49,
+        "action": 264,
+        "reward": 0.1052,
+        "rtg": 10.6241,
+        "is_stop": false
+      },
+      {
+        "t": 50,
+        "action": 305,
+        "reward": 0.0624,
+        "rtg": 10.519,
+        "is_stop": false
+      },
+      {
+        "t": 51,
+        "action": 486,
+        "reward": 0.1824,
+        "rtg": 10.4566,
+        "is_stop": false
+      },
+      {
+        "t": 52,
+        "action": 85,
+        "reward": 0.1747,
+        "rtg": 10.2742,
+        "is_stop": false
+      },
+      {
+        "t": 53,
+        "action": 320,
+        "reward": 0.0258,
+        "rtg": 10.0995,
+        "is_stop": false
+      },
+      {
+        "t": 54,
+        "action": 261,
+        "reward": 0.0417,
+        "rtg": 10.0737,
+        "is_stop": false
+      },
+      {
+        "t": 55,
+        "action": 304,
+        "reward": 0.0489,
+        "rtg": 10.032,
+        "is_stop": false
+      },
+      {
+        "t": 56,
+        "action": 375,
+        "reward": 0.2326,
+        "rtg": 9.9831,
+        "is_stop": false
+      },
+      {
+        "t": 57,
+        "action": 359,
+        "reward": 0.1631,
+        "rtg": 9.7504,
+        "is_stop": false
+      },
+      {
+        "t": 58,
+        "action": 612,
+        "reward": 0.1073,
+        "rtg": 9.5873,
+        "is_stop": false
+      },
+      {
+        "t": 59,
+        "action": 89,
+        "reward": 0.0733,
+        "rtg": 9.48,
+        "is_stop": false
+      },
+      {
+        "t": 60,
+        "action": 153,
+        "reward": 0.0539,
+        "rtg": 9.4067,
+        "is_stop": false
+      },
+      {
+        "t": 61,
+        "action": 168,
+        "reward": 0.0679,
+        "rtg": 9.3528,
+        "is_stop": false
+      },
+      {
+        "t": 62,
+        "action": 260,
+        "reward": 0.0389,
+        "rtg": 9.2849,
+        "is_stop": false
+      },
+      {
+        "t": 63,
+        "action": 432,
+        "reward": 0.1002,
+        "rtg": 9.2459,
+        "is_stop": false
+      },
+      {
+        "t": 64,
+        "action": 171,
+        "reward": 0.1593,
+        "rtg": 9.1457,
+        "is_stop": false
+      },
+      {
+        "t": 65,
+        "action": 242,
+        "reward": 0.0244,
+        "rtg": 8.9865,
+        "is_stop": false
+      },
+      {
+        "t": 66,
+        "action": 70,
+        "reward": 0.0305,
+        "rtg": 8.9621,
+        "is_stop": false
+      },
+      {
+        "t": 67,
+        "action": 471,
+        "reward": 0.2448,
+        "rtg": 8.9316,
+        "is_stop": false
+      },
+      {
+        "t": 68,
+        "action": 464,
+        "reward": 0.1311,
+        "rtg": 8.6868,
+        "is_stop": false
+      },
+      {
+        "t": 69,
+        "action": 379,
+        "reward": 0.1614,
+        "rtg": 8.5557,
+        "is_stop": false
+      },
+      {
+        "t": 70,
+        "action": 626,
+        "reward": 0.2451,
+        "rtg": 8.3943,
+        "is_stop": false
+      },
+      {
+        "t": 71,
+        "action": 539,
+        "reward": 0.2932,
+        "rtg": 8.1492,
+        "is_stop": false
+      },
+      {
+        "t": 72,
+        "action": 475,
+        "reward": 0.2951,
+        "rtg": 7.856,
+        "is_stop": false
+      },
+      {
+        "t": 73,
+        "action": 68,
+        "reward": 0.0376,
+        "rtg": 7.5609,
+        "is_stop": false
+      },
+      {
+        "t": 74,
+        "action": 234,
+        "reward": 0.0633,
+        "rtg": 7.5233,
+        "is_stop": false
+      },
+      {
+        "t": 75,
+        "action": 487,
+        "reward": 0.2703,
+        "rtg": 7.46,
+        "is_stop": false
+      },
+      {
+        "t": 76,
+        "action": 446,
+        "reward": 0.2037,
+        "rtg": 7.1897,
+        "is_stop": false
+      },
+      {
+        "t": 77,
+        "action": 22,
+        "reward": 0.0247,
+        "rtg": 6.986,
+        "is_stop": false
+      },
+      {
+        "t": 78,
+        "action": 438,
+        "reward": 0.2588,
+        "rtg": 6.9613,
+        "is_stop": false
+      },
+      {
+        "t": 79,
+        "action": 560,
+        "reward": 0.1522,
+        "rtg": 6.7025,
+        "is_stop": false
+      },
+      {
+        "t": 80,
+        "action": 8,
+        "reward": 0.0136,
+        "rtg": 6.5503,
+        "is_stop": false
+      },
+      {
+        "t": 81,
+        "action": 407,
+        "reward": 0.1035,
+        "rtg": 6.5367,
+        "is_stop": false
+      },
+      {
+        "t": 82,
+        "action": 348,
+        "reward": 0.042,
+        "rtg": 6.4331,
+        "is_stop": false
+      },
+      {
+        "t": 83,
+        "action": 454,
+        "reward": 0.2274,
+        "rtg": 6.3911,
+        "is_stop": false
+      },
+      {
+        "t": 84,
+        "action": 497,
+        "reward": 0.159,
+        "rtg": 6.1638,
+        "is_stop": false
+      },
+      {
+        "t": 85,
+        "action": 254,
+        "reward": 0.0489,
+        "rtg": 6.0048,
+        "is_stop": false
+      },
+      {
+        "t": 86,
+        "action": 580,
+        "reward": 0.2398,
+        "rtg": 5.9559,
+        "is_stop": false
+      },
+      {
+        "t": 87,
+        "action": 253,
+        "reward": 0.0502,
+        "rtg": 5.7162,
+        "is_stop": false
+      },
+      {
+        "t": 88,
+        "action": 323,
+        "reward": 0.0215,
+        "rtg": 5.6659,
+        "is_stop": false
+      },
+      {
+        "t": 89,
+        "action": 520,
+        "reward": 0.166,
+        "rtg": 5.6445,
+        "is_stop": false
+      },
+      {
+        "t": 90,
+        "action": 582,
+        "reward": 0.1901,
+        "rtg": 5.4784,
+        "is_stop": false
+      },
+      {
+        "t": 91,
+        "action": 34,
+        "reward": 0.0189,
+        "rtg": 5.2883,
+        "is_stop": false
+      },
+      {
+        "t": 92,
+        "action": 458,
+        "reward": 0.1726,
+        "rtg": 5.2694,
+        "is_stop": false
+      },
+      {
+        "t": 93,
+        "action": 395,
+        "reward": 0.1381,
+        "rtg": 5.0968,
+        "is_stop": false
+      },
+      {
+        "t": 94,
+        "action": 482,
+        "reward": 0.2961,
+        "rtg": 4.9587,
+        "is_stop": false
+      },
+      {
+        "t": 95,
+        "action": 192,
+        "reward": 0.0905,
+        "rtg": 4.6626,
+        "is_stop": false
+      },
+      {
+        "t": 96,
+        "action": 565,
+        "reward": 0.1799,
+        "rtg": 4.5721,
+        "is_stop": false
+      },
+      {
+        "t": 97,
+        "action": 146,
+        "reward": 0.101,
+        "rtg": 4.3923,
+        "is_stop": false
+      },
+      {
+        "t": 98,
+        "action": 32,
+        "reward": 0.015,
+        "rtg": 4.2913,
+        "is_stop": false
+      },
+      {
+        "t": 99,
+        "action": 470,
+        "reward": 0.2779,
+        "rtg": 4.2763,
+        "is_stop": false
+      },
+      {
+        "t": 100,
+        "action": 33,
+        "reward": 0.0869,
+        "rtg": 3.9984,
+        "is_stop": false
+      },
+      {
+        "t": 101,
+        "action": 100,
+        "reward": 0.0779,
+        "rtg": 3.9115,
+        "is_stop": false
+      },
+      {
+        "t": 102,
+        "action": 525,
+        "reward": 0.1844,
+        "rtg": 3.8336,
+        "is_stop": false
+      },
+      {
+        "t": 103,
+        "action": 161,
+        "reward": 0.0388,
+        "rtg": 3.6492,
+        "is_stop": false
+      },
+      {
+        "t": 104,
+        "action": 567,
+        "reward": 0.1737,
+        "rtg": 3.6104,
+        "is_stop": false
+      },
+      {
+        "t": 105,
+        "action": 217,
+        "reward": 0.0836,
+        "rtg": 3.4368,
+        "is_stop": false
+      },
+      {
+        "t": 106,
+        "action": 61,
+        "reward": 0.0425,
+        "rtg": 3.3532,
+        "is_stop": false
+      },
+      {
+        "t": 107,
+        "action": 317,
+        "reward": 0.0334,
+        "rtg": 3.3107,
+        "is_stop": false
+      },
+      {
+        "t": 108,
+        "action": 459,
+        "reward": 0.2529,
+        "rtg": 3.2773,
+        "is_stop": false
+      },
+      {
+        "t": 109,
+        "action": 396,
+        "reward": 0.2473,
+        "rtg": 3.0244,
+        "is_stop": false
+      },
+      {
+        "t": 110,
+        "action": 256,
+        "reward": 0.0688,
+        "rtg": 2.7771,
+        "is_stop": false
+      },
+      {
+        "t": 111,
+        "action": 566,
+        "reward": 0.1874,
+        "rtg": 2.7083,
+        "is_stop": false
+      },
+      {
+        "t": 112,
+        "action": 397,
+        "reward": 0.1638,
+        "rtg": 2.5209,
+        "is_stop": false
+      },
+      {
+        "t": 113,
+        "action": 411,
+        "reward": 0.2638,
+        "rtg": 2.3571,
+        "is_stop": false
+      },
+      {
+        "t": 114,
+        "action": 466,
+        "reward": 0.327,
+        "rtg": 2.0933,
+        "is_stop": false
+      },
+      {
+        "t": 115,
+        "action": 340,
+        "reward": 0.0591,
+        "rtg": 1.7662,
+        "is_stop": false
+      },
+      {
+        "t": 116,
+        "action": 530,
+        "reward": 0.1306,
+        "rtg": 1.7072,
+        "is_stop": false
+      },
+      {
+        "t": 117,
+        "action": 310,
+        "reward": 0.0317,
+        "rtg": 1.5766,
+        "is_stop": false
+      },
+      {
+        "t": 118,
+        "action": 99,
+        "reward": 0.0827,
+        "rtg": 1.5449,
+        "is_stop": false
+      },
+      {
+        "t": 119,
+        "action": 290,
+        "reward": 0.0163,
+        "rtg": 1.4622,
+        "is_stop": false
+      },
+      {
+        "t": 120,
+        "action": 12,
+        "reward": 0.0274,
+        "rtg": 1.4458,
+        "is_stop": false
+      },
+      {
+        "t": 121,
+        "action": 467,
+        "reward": 0.3379,
+        "rtg": 1.4185,
+        "is_stop": false
+      },
+      {
+        "t": 122,
+        "action": 336,
+        "reward": 0.1391,
+        "rtg": 1.0805,
+        "is_stop": false
+      },
+      {
+        "t": 123,
+        "action": 35,
+        "reward": 0.0901,
+        "rtg": 0.9414,
+        "is_stop": false
+      },
+      {
+        "t": 124,
+        "action": 610,
+        "reward": 0.1481,
+        "rtg": 0.8513,
+        "is_stop": false
+      },
+      {
+        "t": 125,
+        "action": 214,
+        "reward": 0.1869,
+        "rtg": 0.7032,
+        "is_stop": false
+      },
+      {
+        "t": 126,
+        "action": 136,
+        "reward": 0.0299,
+        "rtg": 0.5164,
+        "is_stop": false
+      },
+      {
+        "t": 127,
+        "action": 406,
+        "reward": 0.1079,
+        "rtg": 0.4864,
+        "is_stop": false
+      },
+      {
+        "t": 128,
+        "action": 45,
+        "reward": 0.024,
+        "rtg": 0.3785,
+        "is_stop": false
+      },
+      {
+        "t": 129,
+        "action": 505,
+        "reward": 0.1119,
+        "rtg": 0.3545,
+        "is_stop": false
+      },
+      {
+        "t": 130,
+        "action": 620,
+        "reward": 0.2426,
+        "rtg": 0.2426,
+        "is_stop": false
+      },
+      {
+        "t": 131,
+        "action": -1,
+        "reward": 0.0,
+        "rtg": 0.0,
+        "is_stop": true
+      }
+    ]
+  }
+]

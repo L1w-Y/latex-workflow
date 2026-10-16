@@ -1,0 +1,12 @@
+{
+  "command": "D:\\PROJECTS\\latex-workflow\\dt_pruning\\evaluate.py --policy cql --split val --stage dev --exp e3_comprehensive --workers 8 --tag curve_cql --checkpoint checkpoints_cql/cql_last.pt --min-pruning-ratio 0.30",
+  "time": "2026-10-13 19:44:40",
+  "policy": "cql",
+  "checkpoint": "checkpoints_cql/cql_last.pt",
+  "target": null,
+  "split": "val",
+  "stage": "dev",
+  "min_pruning_ratio": 0.3,
+  "stop_logit_bias": 0.0,
+  "n_trees": 31
+}

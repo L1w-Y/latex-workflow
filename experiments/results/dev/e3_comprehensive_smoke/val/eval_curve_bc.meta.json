@@ -1,0 +1,12 @@
+{
+  "command": "dt_pruning\\evaluate.py --policy bc --checkpoint checkpoints_bc/bc_best.pt --split val --stage dev --exp e3_comprehensive_smoke --tag curve_bc --limit 1 --workers 1 --min-pruning-ratio 0.30",
+  "time": "2026-10-13 17:28:05",
+  "policy": "bc",
+  "checkpoint": "checkpoints_bc/bc_best.pt",
+  "target": null,
+  "split": "val",
+  "stage": "dev",
+  "min_pruning_ratio": 0.3,
+  "stop_logit_bias": 0.0,
+  "n_trees": 1
+}

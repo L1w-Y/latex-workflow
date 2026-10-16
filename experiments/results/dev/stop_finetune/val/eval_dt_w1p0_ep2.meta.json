@@ -1,0 +1,17 @@
+{
+  "command": "D:\\PROJECTS\\latex-workflow\\dt_pruning\\evaluate.py --policy dt --checkpoint checkpoints_dt_stopcal/w1p0/dt_stop_ep2.pt --split val --stage dev --exp stop_finetune --tag dt_w1p0_ep2 --workers 8",
+  "time": "2026-10-14 11:03:39",
+  "policy": "dt",
+  "checkpoint": "checkpoints_dt_stopcal/w1p0/dt_stop_ep2.pt",
+  "target": {
+    "mode": "per_branch",
+    "value": 7.066466175426136,
+    "reward_set": "full",
+    "multiplier": 1.0
+  },
+  "split": "val",
+  "stage": "dev",
+  "min_pruning_ratio": 0.0,
+  "stop_logit_bias": 0.0,
+  "n_trees": 31
+}

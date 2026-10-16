@@ -1,0 +1,14 @@
+{
+ "base_checkpoint": "checkpoints_dt/dt_best.pt",
+ "continue_weight": 2.0,
+ "epochs": 1,
+ "batches_per_epoch": 1,
+ "batch_size": 2,
+ "lr": 0.0003,
+ "anchor_weight": 0.0001,
+ "hard_width": 12,
+ "expert_weight": 0.5,
+ "reward_set": "full",
+ "train_trees": 3,
+ "val_trees": 1
+}

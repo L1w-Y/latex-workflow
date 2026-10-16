@@ -1,0 +1,58 @@
+{
+  "dt_vs_bc": {
+    "n": 1,
+    "dt_mean": 3450.954075548077,
+    "other_mean": 1326.0839810208622,
+    "diff_mean": 2124.870094527215,
+    "win_rate": 1.0,
+    "wilcoxon_p": null
+  },
+  "dt_vs_bcq": {
+    "n": 1,
+    "dt_mean": 3450.954075548077,
+    "other_mean": 2772.28565438894,
+    "diff_mean": 678.6684211591369,
+    "win_rate": 1.0,
+    "wilcoxon_p": null
+  },
+  "dt_vs_cql": {
+    "n": 1,
+    "dt_mean": 3450.954075548077,
+    "other_mean": 2612.440774866648,
+    "diff_mean": 838.513300681429,
+    "win_rate": 1.0,
+    "wilcoxon_p": null
+  },
+  "dt_vs_expert": {
+    "n": 1,
+    "dt_mean": 3450.954075548077,
+    "other_mean": 2864.847553613126,
+    "diff_mean": 586.1065219349512,
+    "win_rate": 1.0,
+    "wilcoxon_p": null
+  },
+  "dt_vs_greedy": {
+    "n": 1,
+    "dt_mean": 3450.954075548077,
+    "other_mean": 185.67269371933588,
+    "diff_mean": 3265.2813818287414,
+    "win_rate": 1.0,
+    "wilcoxon_p": null
+  },
+  "dt_vs_iql": {
+    "n": 1,
+    "dt_mean": 3450.954075548077,
+    "other_mean": 1637.732599706127,
+    "diff_mean": 1813.22147584195,
+    "win_rate": 1.0,
+    "wilcoxon_p": null
+  },
+  "dt_vs_random": {
+    "n": 1,
+    "dt_mean": 3450.954075548077,
+    "other_mean": 698.29777822285,
+    "diff_mean": 2752.656297325227,
+    "win_rate": 1.0,
+    "wilcoxon_p": null
+  }
+}

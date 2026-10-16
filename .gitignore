@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large experiment data and model artifacts
+experiments/data/
+experiments/checkpoints*/
+experiments/smoke_*/
+archive/lemonrl/data/
+archive/plant_cut_v2/
+文献/**/*.pdf
+论文/*.pdf
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.npy
+*.npz
+
+# Disposable or obsolete experiment outputs
+experiments/results/obsolete/
+experiments/results/**/_smoke/
+experiments/scratch/_*.py
+
+# LaTeX generated files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# Local logs and temporary files
+*.tmp
+*.temp
+*.log
+*.bak

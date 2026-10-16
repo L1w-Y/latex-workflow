@@ -1,0 +1,10 @@
+{
+  "command": "D:\\PROJECTS\\latex-workflow\\dt_pruning\\evaluate.py --policy cql --split val --stage dev --workers 1 --exp smoke --limit 1 --checkpoint checkpoints_cql/cql_last.pt",
+  "time": "2026-10-13 12:33:59",
+  "policy": "cql",
+  "checkpoint": "checkpoints_cql/cql_last.pt",
+  "target": null,
+  "split": "val",
+  "stage": "dev",
+  "n_trees": 1
+}

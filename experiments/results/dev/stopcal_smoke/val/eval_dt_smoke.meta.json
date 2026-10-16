@@ -1,0 +1,17 @@
+{
+  "command": "dt_pruning\\evaluate.py --policy dt --checkpoint scratch/checkpoints_stopcal_smoke/dt_stop_ep1.pt --split val --stage dev --exp stopcal_smoke --tag dt_smoke --limit 1 --workers 1",
+  "time": "2026-10-14 10:50:06",
+  "policy": "dt",
+  "checkpoint": "scratch/checkpoints_stopcal_smoke/dt_stop_ep1.pt",
+  "target": {
+    "mode": "per_branch",
+    "value": 7.066466175426136,
+    "reward_set": "full",
+    "multiplier": 1.0
+  },
+  "split": "val",
+  "stage": "dev",
+  "min_pruning_ratio": 0.0,
+  "stop_logit_bias": 0.0,
+  "n_trees": 1
+}

@@ -1,0 +1,10 @@
+{
+  "command": "D:\\PROJECTS\\latex-workflow\\dt_pruning\\evaluate.py --policy bcq --split val --stage dev --workers 8 --exp e3_v2 --checkpoint checkpoints_bcq/bcq_last.pt",
+  "time": "2026-10-13 15:33:04",
+  "policy": "bcq",
+  "checkpoint": "checkpoints_bcq/bcq_last.pt",
+  "target": null,
+  "split": "val",
+  "stage": "dev",
+  "n_trees": 31
+}

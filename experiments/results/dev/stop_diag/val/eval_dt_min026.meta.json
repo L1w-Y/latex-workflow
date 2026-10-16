@@ -1,0 +1,17 @@
+{
+  "command": "D:\\PROJECTS\\latex-workflow\\dt_pruning\\evaluate.py --policy dt --checkpoint checkpoints_dt/dt_best.pt --split val --stage dev --exp stop_diag --workers 8 --tag dt_min026 --min-pruning-ratio 0.26",
+  "time": "2026-10-13 16:35:11",
+  "policy": "dt",
+  "checkpoint": "checkpoints_dt/dt_best.pt",
+  "target": {
+    "mode": "per_branch",
+    "value": 7.066466175426136,
+    "reward_set": "full",
+    "multiplier": 1.0
+  },
+  "split": "val",
+  "stage": "dev",
+  "min_pruning_ratio": 0.26,
+  "stop_logit_bias": 0.0,
+  "n_trees": 31
+}

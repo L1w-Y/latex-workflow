@@ -1,0 +1,10 @@
+{
+  "command": "evaluate.py --policy expert --split val --workers 8 --exp e2_teacher",
+  "time": "2026-10-09 16:23:32",
+  "policy": "expert",
+  "checkpoint": null,
+  "target": null,
+  "split": "val",
+  "stage": "dev",
+  "n_trees": 31
+}

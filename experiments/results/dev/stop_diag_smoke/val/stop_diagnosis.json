@@ -1,0 +1,21 @@
+{
+ "trees": [
+  "Lemon00_01"
+ ],
+ "ref": "dt_min026",
+ "means": {
+  "dt_min026": {
+   "reward": 2670.688517761202,
+   "kpi_sum": 367.27136654162695,
+   "ratio": 0.2820919175911252,
+   "steps": 91.0,
+   "suppressed": 3.0,
+   "model_stop_rate": 1.0,
+   "ideal_rate": 1.0,
+   "below_025_rate": 0.0,
+   "corr_ratio_reward": NaN,
+   "corr_ratio_kpi": NaN
+  }
+ },
+ "tests_vs_ref": {}
+}

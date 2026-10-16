@@ -1,0 +1,46 @@
+{
+  "checkpoint": "checkpoints\\graph_gnn\\graph_candidate_ranker_best.pt",
+  "checkpoint_epoch": 13,
+  "total_valid_trees": 1500,
+  "sampled_trees": 211,
+  "evaluated_trees": 211,
+  "skipped": [],
+  "metrics": {
+    "hierarchy": {
+      "before_mean": 0.5,
+      "after_mean": 0.5,
+      "delta_mean": 0.0,
+      "delta_std": 0.0
+    },
+    "crowding": {
+      "before_mean": 0.499031717805114,
+      "after_mean": 0.49882406623515835,
+      "delta_mean": -0.00020765156995564442,
+      "delta_std": 0.000310988968214737
+    },
+    "balance": {
+      "before_mean": 0.8342409688453983,
+      "after_mean": 0.8348767630506723,
+      "delta_mean": 0.0006357942052738471,
+      "delta_std": 0.0004859512903443719
+    },
+    "light": {
+      "before_mean": 0.33364089168275723,
+      "after_mean": 0.33509358791384175,
+      "delta_mean": 0.0014526962310844416,
+      "delta_std": 0.003912358306789619
+    },
+    "potential": {
+      "before_mean": 0.4124659100368298,
+      "after_mean": 0.4156889251868226,
+      "delta_mean": 0.0032230151499928216,
+      "delta_std": 0.0014971448129120143
+    },
+    "stability": {
+      "before_mean": 0.7018329976472499,
+      "after_mean": 0.7017874381551928,
+      "delta_mean": -4.5559492057012745e-05,
+      "delta_std": 0.0010750101775831716
+    }
+  }
+}

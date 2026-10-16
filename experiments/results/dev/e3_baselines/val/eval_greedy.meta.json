@@ -1,0 +1,10 @@
+{
+  "command": "D:\\PROJECTS\\latex-workflow\\dt_pruning\\evaluate.py --policy greedy --split val --stage dev --workers 8 --exp e3_baselines",
+  "time": "2026-10-09 21:36:13",
+  "policy": "greedy",
+  "checkpoint": null,
+  "target": null,
+  "split": "val",
+  "stage": "dev",
+  "n_trees": 31
+}

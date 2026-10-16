@@ -1,0 +1,41 @@
+{
+  "n_trajectories": 1830,
+  "n_trees": 366,
+  "separation": {
+    "n_trees_paired": 366,
+    "expert_mean": 1326.2886407608974,
+    "random_mean": 452.6037771121594,
+    "diff_mean": 873.6848636487381,
+    "expert_better_rate": 0.994535519125683
+  },
+  "stop_behavior": {
+    "expert": {
+      "mean": 0.24049087732696658,
+      "at_cap_rate": 0.23224043715846995,
+      "in_ideal_range_rate": 0.825136612021858
+    },
+    "random": {
+      "mean": 0.26559746243153154,
+      "at_cap_rate": 0.15368852459016394,
+      "in_ideal_range_rate": 0.944672131147541
+    }
+  },
+  "reward_range": {
+    "mean": 11.917468465418446,
+    "std": 9.859823468486775,
+    "min": -3.0,
+    "max": 37.36896860476777,
+    "clip_lo_hit_rate": 0.11270398206203545,
+    "clip_hi_hit_rate": 0.0,
+    "negative_rate": 0.13655898351534276
+  },
+  "steps_rtg": {
+    "steps_mean": 52.64043715846994,
+    "steps_p50": 50.0,
+    "steps_p95": 97.0,
+    "steps_max": 146,
+    "rtg0_mean": 627.3407498419069,
+    "rtg0_p90": 1247.6841097862093,
+    "rtg0_max": 3056.16931021054
+  }
+}

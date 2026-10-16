@@ -1,0 +1,17 @@
+{
+  "command": "D:\\PROJECTS\\latex-workflow\\dt_pruning\\evaluate.py --policy dt --checkpoint checkpoints_dt_noprotect/dt_best.pt --split val --stage dev --exp e4_ablation --workers 8 --tag curve_noprotect --reward-set noprotect --stop-logit-bias 0 --min-pruning-ratio 0.3",
+  "time": "2026-10-16 11:22:07",
+  "policy": "dt",
+  "checkpoint": "checkpoints_dt_noprotect/dt_best.pt",
+  "target": {
+    "mode": "per_branch",
+    "value": 7.066466175426136,
+    "reward_set": "noprotect",
+    "multiplier": 1.0
+  },
+  "split": "val",
+  "stage": "dev",
+  "min_pruning_ratio": 0.3,
+  "stop_logit_bias": 0.0,
+  "n_trees": 31
+}

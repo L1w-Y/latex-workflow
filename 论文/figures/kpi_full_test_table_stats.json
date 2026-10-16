@@ -1,0 +1,83 @@
+{
+  "n_trees": 211,
+  "metrics": [
+    {
+      "key": "hierarchy",
+      "latex_name": "结构层次性 $H$",
+      "direction": "neutral",
+      "before_mean": 0.5,
+      "before_std": 0.0,
+      "after_mean": 0.5,
+      "after_std": 0.0,
+      "delta_mean": 0.0,
+      "delta_std": 0.0,
+      "improve_rate": 1.0,
+      "improve_label": "无变化占比"
+    },
+    {
+      "key": "crowding",
+      "latex_name": "拥挤度 $C$",
+      "direction": "lower",
+      "before_mean": 0.499031717805114,
+      "before_std": 0.004157015274035362,
+      "after_mean": 0.49882406623515835,
+      "after_std": 0.004143007558160162,
+      "delta_mean": -0.00020765156995564442,
+      "delta_std": 0.000310988968214737,
+      "improve_rate": 0.7914691943127962,
+      "improve_label": "改善占比"
+    },
+    {
+      "key": "balance",
+      "latex_name": "平衡性 $B$",
+      "direction": "higher",
+      "before_mean": 0.8342409688453983,
+      "before_std": 0.09627606395898422,
+      "after_mean": 0.8348767630506723,
+      "after_std": 0.09597892258432422,
+      "delta_mean": 0.0006357942052738471,
+      "delta_std": 0.0004859512903443719,
+      "improve_rate": 0.966824644549763,
+      "improve_label": "改善占比"
+    },
+    {
+      "key": "light",
+      "latex_name": "光照可及性 $\\mathcal{L}$",
+      "direction": "higher",
+      "before_mean": 0.33364089168275723,
+      "before_std": 0.05050723904864692,
+      "after_mean": 0.33509358791384175,
+      "after_std": 0.05123860087149827,
+      "delta_mean": 0.0014526962310844416,
+      "delta_std": 0.003912358306789619,
+      "improve_rate": 0.8815165876777251,
+      "improve_label": "改善占比"
+    },
+    {
+      "key": "potential",
+      "latex_name": "果实潜力 $P$",
+      "direction": "higher",
+      "before_mean": 0.4124659100368298,
+      "before_std": 0.052896241587708295,
+      "after_mean": 0.4156889251868226,
+      "after_std": 0.053043176636629365,
+      "delta_mean": 0.0032230151499928216,
+      "delta_std": 0.0014971448129120143,
+      "improve_rate": 0.9620853080568721,
+      "improve_label": "改善占比"
+    },
+    {
+      "key": "stability",
+      "latex_name": "结构稳定性 $S$",
+      "direction": "higher",
+      "before_mean": 0.7018329976472499,
+      "before_std": 0.03823186789938599,
+      "after_mean": 0.7017874381551928,
+      "after_std": 0.03813282728121381,
+      "delta_mean": -4.5559492057012745e-05,
+      "delta_std": 0.0010750101775831716,
+      "improve_rate": 0.8578199052132701,
+      "improve_label": "改善占比"
+    }
+  ]
+}

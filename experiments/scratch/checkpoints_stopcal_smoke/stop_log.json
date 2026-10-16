@@ -1,0 +1,22 @@
+[
+ {
+  "epoch": 1,
+  "train": {
+   "bce": 0.1143927201628685,
+   "anchor": 0.0,
+   "stop_recall": 1.0,
+   "false_stop": 0.0,
+   "margin_stop": 1.3633930683135986,
+   "margin_continue": -7.581596374511719
+  },
+  "val": {
+   "bce": 0.27279090881347656,
+   "anchor": 3.535733981152589e-07,
+   "stop_recall": 1.0,
+   "false_stop": 0.0,
+   "margin_stop": 3.780162811279297,
+   "margin_continue": -1.207681655883789
+  },
+  "minutes": 0.00648717482884725
+ }
+]

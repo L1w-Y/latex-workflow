@@ -1,0 +1,13 @@
+{
+  "command": "evaluate.py --policy dt --checkpoint checkpoints_dt/dt_best.pt --target-mode per_branch --target-return 4.0 --split val --workers 8 --exp e2_teacher",
+  "time": "2026-10-09 16:31:12",
+  "policy": "dt",
+  "checkpoint": "checkpoints_dt/dt_best.pt",
+  "target": {
+    "mode": "per_branch",
+    "value": 4.0
+  },
+  "split": "val",
+  "stage": "dev",
+  "n_trees": 31
+}

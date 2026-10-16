@@ -1,0 +1,10 @@
+{
+  "command": "evaluate.py --policy bc --checkpoint checkpoints_bc/bc_best.pt --split val --workers 8 --exp e2_teacher",
+  "time": "2026-10-09 16:35:59",
+  "policy": "bc",
+  "checkpoint": "checkpoints_bc/bc_best.pt",
+  "target": null,
+  "split": "val",
+  "stage": "dev",
+  "n_trees": 31
+}
