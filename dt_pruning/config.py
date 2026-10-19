@@ -95,6 +95,14 @@ class RewardConfig:
     eta_v: float = 0.15                # 单步最大剪除体积比
     lambda_v: float = 10.0
 
+    # --- v2 连续安全风险与净收益（不改变 v1 奖励入口）---
+    # 连续风险在接近骨干枝阈值和大体积剪除时即产生梯度，不再只在越界后触发。
+    v2_main_softness: float = 0.20
+    v2_volume_risk_weight: float = 4.0
+    v2_prune_cost_weight: float = 8.0
+    v2_prune_cost_volume_mix: float = 0.70
+    v2_fixed_action_cost: float = 20.0
+
     # --- 终止奖励（论文 eq:stop_reward）---
     eta_lo: float = 0.18
     eta_hi: float = 0.32
@@ -126,6 +134,11 @@ class DataConfig:
     work_root: str = r"d:\PROJECTS\latex-workflow\experiments"
     train_ratio: float = 0.85          # 树级 85/15 划分
     split_seed: int = 42
+    v2_version: str = "pruning-v2-small"
+    v2_schema_version: int = 2
+    v2_manifest: str = r"data\manifests\v2_small_manifest.json"
+    v2_trajectory_dir: str = r"data\trajectories_v2_curated"
+    v2_cache_dir: str = r"data\graph_cache_v2_curated"
 
     # 三级安全约束（论文 sec:model:preprocess）
     min_nodes_abs: int = 10
@@ -145,6 +158,20 @@ class TrajectoryConfig:
     expert_volume_penalty: float = 50.0  # 专家策略体积惩罚系数 λ_exp
     seed: int = 42
     stop_action: int = -1              # 轨迹文件中 STOP 的标记
+
+    # --- v2：结构化轨迹与边际停止 ---
+    v2_train_trees: int = 20
+    v2_model_val_trees: int = 10
+    v2_topk: int = 3
+    v2_candidate_cap: int = 32
+    v2_min_stop_ratio: float = 0.12
+    v2_max_pruning_ratio: float = 0.32
+    v2_stop_patience: int = 3
+    v2_net_gain_threshold: float = 80.0
+    v2_n_gardening: int = 1
+    v2_n_topk: int = 2
+    v2_n_kpi: int = 2
+    v2_n_random: int = 0
 
 
 # ==============================================================================

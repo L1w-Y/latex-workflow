@@ -1,0 +1,63 @@
+{
+  "checkpoint": "d:\\PROJECTS\\latex-workflow\\experiments\\checkpoints_dt_v2\\dt_best.pt",
+  "n_val_actions": 558,
+  "losses": {
+    "branch": 4.437583923339844,
+    "stop": 0.036864105612039566,
+    "kpi": 0.00028422955074347556,
+    "weighted_kpi": 5.6845910148695114e-05
+  },
+  "shared_gradient_norms": {
+    "branch": 3.499054431915283,
+    "stop": 1.319612979888916,
+    "kpi_raw": 0.0021743651013821363,
+    "weighted_kpi": 0.0004348730202764273,
+    "weighted_kpi_over_branch": 0.00012428301095001546
+  },
+  "dimensions": {
+    "hierarchy": {
+      "mae": 0.012116140685975552,
+      "mean_baseline_mae": 0.0021294793114066124,
+      "mae_improvement": -4.6897198395284345,
+      "r2": -12.739435579710596,
+      "spearman": -0.008751843611211193
+    },
+    "crowding": {
+      "mae": 0.014287500642240047,
+      "mean_baseline_mae": 0.0010572384344413877,
+      "mae_improvement": -12.513981498212486,
+      "r2": -157.258921657645,
+      "spearman": 0.2542561008170935
+    },
+    "balance": {
+      "mae": 0.014138317666947842,
+      "mean_baseline_mae": 0.001984544098377228,
+      "mae_improvement": -6.124214412019778,
+      "r2": -13.347202867967157,
+      "spearman": 0.04659074909528037
+    },
+    "light": {
+      "mae": 0.014468798413872719,
+      "mean_baseline_mae": 0.0017446648562327027,
+      "mae_improvement": -7.293167803652301,
+      "r2": -43.56865822630287,
+      "spearman": -0.05548521170387906
+    },
+    "potential": {
+      "mae": 0.011801005341112614,
+      "mean_baseline_mae": 0.0009249750291928649,
+      "mae_improvement": -11.75818802525966,
+      "r2": -117.7617896519889,
+      "spearman": 0.008589601087248792
+    },
+    "stability": {
+      "mae": 0.013048677705228329,
+      "mean_baseline_mae": 0.0017383592203259468,
+      "mae_improvement": -6.5063183447099435,
+      "r2": -26.16255215674006,
+      "spearman": 0.1436406835199643
+    }
+  },
+  "mean_mae_improvement": -8.147598320563768,
+  "mean_spearman": 0.06480667986741612
+}

@@ -1,0 +1,9 @@
+{
+  "command": "dt_pruning/evaluate_v2.py --checkpoint checkpoints_dt_stop_v2/dt_stop_best.pt --stop-threshold 0.14348195125141813 --limit 5 --exp stop_calibration_v2 --tag dt_v2_cal_q --overwrite",
+  "time": "2026-10-16 19:57:46",
+  "checkpoint": "d:\\PROJECTS\\latex-workflow\\experiments\\checkpoints_dt_stop_v2/dt_stop_best.pt",
+  "target_return": 2199.9384765625,
+  "stop_threshold": 0.14348195125141813,
+  "n_trees": 5,
+  "minutes": 0.45321001211802164
+}

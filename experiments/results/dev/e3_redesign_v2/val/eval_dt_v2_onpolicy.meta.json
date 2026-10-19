@@ -1,0 +1,9 @@
+{
+  "command": "dt_pruning/evaluate_v2.py --checkpoint checkpoints_dt_stop_onpolicy_v2/dt_stop_onpolicy_best.pt --exp e3_redesign_v2 --tag dt_v2_onpolicy",
+  "time": "2026-10-16 20:16:50",
+  "checkpoint": "d:\\PROJECTS\\latex-workflow\\experiments\\checkpoints_dt_stop_onpolicy_v2/dt_stop_onpolicy_best.pt",
+  "target_return": 2199.9384765625,
+  "stop_threshold": 0.5,
+  "n_trees": 31,
+  "minutes": 2.521680684884389
+}

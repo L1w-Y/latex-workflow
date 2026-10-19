@@ -1,0 +1,10 @@
+{
+  "command": "evaluate_v2.py --checkpoint checkpoints_dt_e4_no_rq_stop_v2/dt_stop_onpolicy_best.pt --exp e4_redesign_v2 --tag no_rq_curve --diagnose-stop-continuation",
+  "time": "2026-10-17 20:19:39",
+  "checkpoint": "d:\\PROJECTS\\latex-workflow\\experiments\\checkpoints_dt_e4_no_rq_stop_v2/dt_stop_onpolicy_best.pt",
+  "target_return": 816.43798828125,
+  "stop_threshold": 0.5,
+  "n_trees": 31,
+  "diagnose_stop_continuation": true,
+  "minutes": 2.904261529445648
+}

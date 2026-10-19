@@ -575,6 +575,106 @@ def constraint_penalty(action_bid: int, props_before: dict[int, BranchProps],
     return float(rc)
 
 
+def _sigmoid(x: float) -> float:
+    x = float(np.clip(x, -40.0, 40.0))
+    return 1.0 / (1.0 + np.exp(-x))
+
+
+def continuous_constraint_penalty(action_bid: int,
+                                  props_before: dict[int, BranchProps],
+                                  cfg: RewardConfig) -> float:
+    """v2 连续安全风险。
+
+    长度和半径越接近骨干枝阈值，风险平滑增大；剪除体积占比在全区间
+    都有信号，超过 ``eta_v`` 后按平方项加速惩罚。
+    """
+    p = props_before.get(action_bid)
+    if p is None:
+        return 0.0
+    softness = max(cfg.v2_main_softness, cfg.eps)
+    length_risk = _sigmoid((p.length / max(cfg.main_branch_length, cfg.eps) - 1.0) / softness)
+    radius_risk = _sigmoid((p.avg_radius / max(cfg.main_branch_radius, cfg.eps) - 1.0) / softness)
+    main_risk = cfg.pi_main * length_risk * radius_risk
+    total_v = sum(q.volume for q in props_before.values())
+    volume_ratio = p.volume / max(total_v, cfg.eps)
+    rel = volume_ratio / max(cfg.eta_v, cfg.eps)
+    volume_risk = cfg.v2_volume_risk_weight * (rel + max(rel - 1.0, 0.0) ** 2)
+    return float(-(main_risk + volume_risk))
+
+
+def pruning_cost(action_bid: int, sk_before: np.ndarray, sk_after: np.ndarray,
+                 props_before: dict[int, BranchProps], cfg: RewardConfig) -> float:
+    """v2 归一化剪除成本；兼顾枝体积和级联删除的骨架点比例。"""
+    p = props_before.get(action_bid)
+    if p is None:
+        return 0.0
+    total_v = sum(q.volume for q in props_before.values())
+    volume_ratio = p.volume / max(total_v, cfg.eps)
+    point_ratio = max(sk_before.shape[0] - sk_after.shape[0], 0) / max(sk_before.shape[0], 1)
+    mix = float(np.clip(cfg.v2_prune_cost_volume_mix, 0.0, 1.0))
+    variable = cfg.v2_prune_cost_weight * (
+        mix * volume_ratio + (1.0 - mix) * point_ratio)
+    return float(cfg.v2_fixed_action_cost + variable)
+
+
+V2_RULE_FEATURE_KEYS = (
+    "cross_inferior", "cross_other", "inward", "vigorous", "drooping", "weak",
+    "protect_medium_short", "protect_sturdy", "main_risk", "volume_risk",
+)
+
+
+def branch_rule_features(props: dict[int, BranchProps],
+                         crossing: list[tuple[int, int, float, int]],
+                         canopy_center: np.ndarray, avg_len: float, avg_r: float,
+                         cfg: RewardConfig) -> dict[int, np.ndarray]:
+    """返回与园艺规则同源的逐枝显式特征，供 schema=2 编码器使用。"""
+    cross_bad: dict[int, float] = {}
+    cross_other: dict[int, float] = {}
+    for ba, bb, severity, worse in crossing:
+        cross_bad[worse] = max(cross_bad.get(worse, 0.0), float(severity))
+        other = bb if worse == ba else ba
+        cross_other[other] = max(cross_other.get(other, 0.0), float(severity))
+    total_v = sum(q.volume for q in props.values())
+    out = {}
+    for bid, p in props.items():
+        softness = max(cfg.v2_main_softness, cfg.eps)
+        main_risk = _sigmoid((p.length / max(cfg.main_branch_length, cfg.eps) - 1.0) / softness)
+        main_risk *= _sigmoid((p.avg_radius / max(cfg.main_branch_radius, cfg.eps) - 1.0) / softness)
+        out[bid] = np.asarray([
+            cross_bad.get(bid, 0.0),
+            cross_other.get(bid, 0.0),
+            float(is_inward(p, canopy_center, cfg)),
+            float(is_vigorous(p, avg_len, cfg)),
+            float(is_drooping(p, cfg)),
+            float(is_weak(p, avg_r, cfg)),
+            float(is_medium_short(p, avg_len, cfg)),
+            float(is_sturdy(p, avg_r, cfg)),
+            main_risk,
+            p.volume / max(total_v, cfg.eps),
+        ], dtype=np.float32)
+    return out
+
+
+def composite_reward_v2(action_bid: int,
+                        sk_before: np.ndarray, props_before: dict[int, BranchProps],
+                        k_before: dict[str, float],
+                        sk_after: np.ndarray, props_after: dict[int, BranchProps],
+                        k_after: dict[str, float],
+                        crossing: list[tuple[int, int, float, int]],
+                        cfg: RewardConfig) -> tuple[float, dict[str, float]]:
+    """v2 净收益：规则质量 + KPI 改善 + 连续安全约束 − 剪除成本。"""
+    canopy_center, avg_len, avg_r = branch_context(sk_before, props_before, cfg)
+    rq = branch_quality_reward(action_bid, props_before, crossing,
+                               canopy_center, avg_len, avg_r, cfg)
+    if cfg.rq_by_volume:
+        rq *= (sk_before.shape[0] - sk_after.shape[0]) / cfg.rq_volume_ref
+    ri = state_improvement_reward(k_before, k_after, cfg)
+    rc = continuous_constraint_penalty(action_bid, props_before, cfg)
+    cost = pruning_cost(action_bid, sk_before, sk_after, props_before, cfg)
+    total = float(cfg.alpha * rq + cfg.beta * ri + cfg.gamma * rc - cost)
+    return total, {"rq": rq, "ri": ri, "rc": rc, "cost": cost}
+
+
 def composite_reward(action_bid: int,
                      sk_before: np.ndarray, props_before: dict[int, BranchProps],
                      k_before: dict[str, float],
@@ -632,4 +732,5 @@ def reward_for_set(parts: dict[str, float], reward_set: str,
         rq_use = rq
     ri_use = parts["ri"] if use_ri else 0.0
     rc_use = parts["rc"] if use_rc else 0.0
-    return float(cfg.alpha * rq_use + cfg.beta * ri_use + cfg.gamma * rc_use)
+    cost = parts.get("cost", 0.0)
+    return float(cfg.alpha * rq_use + cfg.beta * ri_use + cfg.gamma * rc_use - cost)

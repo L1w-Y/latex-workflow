@@ -1,0 +1,63 @@
+{
+  "checkpoint": "d:\\PROJECTS\\latex-workflow\\experiments\\checkpoints_dt_kpifix_v2\\dt_best.pt",
+  "n_val_actions": 558,
+  "losses": {
+    "branch": 4.623897552490234,
+    "stop": 0.039417814463377,
+    "kpi": 0.09858565777540207,
+    "weighted_kpi": 0.019717131555080415
+  },
+  "shared_gradient_norms": {
+    "branch": 2.607792377471924,
+    "stop": 0.762201189994812,
+    "kpi_raw": 0.13333754241466522,
+    "weighted_kpi": 0.026667508482933047,
+    "weighted_kpi_over_branch": 0.010226085754873389
+  },
+  "dimensions": {
+    "hierarchy": {
+      "mae": 0.16393522918224335,
+      "mean_baseline_mae": 0.20467157661914825,
+      "mae_improvement": 0.19903275339842075,
+      "r2": 0.22217683486905615,
+      "spearman": 0.3486435082714395
+    },
+    "crowding": {
+      "mae": 0.16929034888744354,
+      "mean_baseline_mae": 0.22315913438796997,
+      "mae_improvement": 0.24139180163189577,
+      "r2": 0.24848126261420245,
+      "spearman": 0.3758366031085022
+    },
+    "balance": {
+      "mae": 0.1501898616552353,
+      "mean_baseline_mae": 0.1398855298757553,
+      "mae_improvement": -0.07366259961721688,
+      "r2": -0.00927784034847945,
+      "spearman": -0.09853800271902019
+    },
+    "light": {
+      "mae": 0.17843259871006012,
+      "mean_baseline_mae": 0.21865500509738922,
+      "mae_improvement": 0.18395374196631809,
+      "r2": 0.18917611804870094,
+      "spearman": 0.3150855074307642
+    },
+    "potential": {
+      "mae": 0.28266558051109314,
+      "mean_baseline_mae": 0.313357949256897,
+      "mae_improvement": 0.0979466735041773,
+      "r2": 0.06190428158987693,
+      "spearman": 0.3742332273523164
+    },
+    "stability": {
+      "mae": 0.1352715641260147,
+      "mean_baseline_mae": 0.1829497218132019,
+      "mae_improvement": 0.2606079813330805,
+      "r2": 0.1628302685610844,
+      "spearman": 0.3896224521241645
+    }
+  },
+  "mean_mae_improvement": 0.15154505870277926,
+  "mean_spearman": 0.2841472159280278
+}

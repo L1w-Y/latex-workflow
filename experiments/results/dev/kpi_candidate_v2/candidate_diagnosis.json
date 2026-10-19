@@ -1,0 +1,47 @@
+{
+  "checkpoint": "D:\\PROJECTS\\latex-workflow\\experiments\\checkpoints_dt_kpicandidate_v2\\dt_best.pt",
+  "n_candidate_states": 558,
+  "n_candidates": 4436,
+  "candidate_utility_mean_state_spearman": 0.22915173237753886,
+  "candidate_utility_top1": 0.23118279569892472,
+  "candidate_utility_random_top1": 0.12597286226318485,
+  "candidate_utility_top1_lift": 0.10520993343573987,
+  "dimensions": {
+    "hierarchy": {
+      "mae": 0.2463059425354004,
+      "mean_baseline_mae": 0.2542581260204315,
+      "mae_improvement": 0.03127602491804771,
+      "spearman": 0.06145162736669021
+    },
+    "crowding": {
+      "mae": 0.5575665831565857,
+      "mean_baseline_mae": 0.45675164461135864,
+      "mae_improvement": -0.22072156659886488,
+      "spearman": 0.14612397334562294
+    },
+    "balance": {
+      "mae": 0.33331558108329773,
+      "mean_baseline_mae": 0.2974987030029297,
+      "mae_improvement": -0.12039339237057223,
+      "spearman": -0.01110515666177435
+    },
+    "light": {
+      "mae": 0.43814122676849365,
+      "mean_baseline_mae": 0.43429332971572876,
+      "mae_improvement": -0.008860133899094347,
+      "spearman": -0.009209887059172998
+    },
+    "potential": {
+      "mae": 1.0863354206085205,
+      "mean_baseline_mae": 1.0984927415847778,
+      "mae_improvement": 0.011067274744772648,
+      "spearman": 0.26168070491323847
+    },
+    "stability": {
+      "mae": 0.5664471983909607,
+      "mean_baseline_mae": 0.23789401352405548,
+      "mae_improvement": -1.38109059576517,
+      "spearman": 0.0068451222120010724
+    }
+  }
+}

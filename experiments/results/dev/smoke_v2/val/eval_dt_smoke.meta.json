@@ -1,0 +1,9 @@
+{
+  "command": "dt_pruning/evaluate_v2.py --checkpoint checkpoints_dt_smoke_v2/dt_last.pt --limit 2 --exp smoke_v2 --tag dt_smoke",
+  "time": "2026-10-16 18:27:30",
+  "checkpoint": "d:\\PROJECTS\\latex-workflow\\experiments\\checkpoints_dt_smoke_v2/dt_last.pt",
+  "target_return": 2199.9384765625,
+  "stop_threshold": 0.5,
+  "n_trees": 2,
+  "minutes": 0.2243117888768514
+}

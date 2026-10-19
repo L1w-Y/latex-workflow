@@ -1,0 +1,204 @@
+{
+  "paired_rollout": {
+    "n_trees": 10,
+    "cap_pairing": {
+      "mean": -25.26504363919964,
+      "median": -17.288415087281038,
+      "full_wins": 2,
+      "no_kpi_wins": 8,
+      "wilcoxon_p": 0.16015625,
+      "bootstrap_mean_ci95": [
+        -51.95946738738494,
+        -2.2042762630035697
+      ]
+    },
+    "auc_pairing": {
+      "mean": -10.467562383086245,
+      "median": -5.623911042468087,
+      "full_wins": 4,
+      "no_kpi_wins": 6,
+      "wilcoxon_p": 0.322265625,
+      "bootstrap_mean_ci95": [
+        -31.083552823976426,
+        7.1368646518090655
+      ]
+    },
+    "mean_steps": {
+      "full": 17.4,
+      "no_kpi": 75.1
+    },
+    "mean_ratio_increment_per_action": {
+      "full": 0.026101572892594727,
+      "no_kpi": 0.005286525931859671
+    },
+    "mean_weighted_dimension_diff": {
+      "hierarchy": -1.8250356195102573,
+      "crowding": 0.7981924890781251,
+      "balance": -11.655414132275762,
+      "light": 12.127522103024004,
+      "potential": -13.38510954415986,
+      "stability": -11.325198935355889
+    },
+    "per_tree": [
+      {
+        "tree": "Lemon00_22",
+        "cap_diff_full_minus_no_kpi": 24.191009482583098,
+        "auc_diff_full_minus_no_kpi": 41.25024094395798,
+        "steps_full": 10,
+        "steps_no_kpi": 36,
+        "mean_ratio_increment_full": 0.03194444444444444,
+        "mean_ratio_increment_no_kpi": 0.008873456790123456,
+        "hierarchy_weighted_diff": -29.880090322701385,
+        "crowding_weighted_diff": 27.456646625424813,
+        "balance_weighted_diff": 19.93723525164435,
+        "light_weighted_diff": 6.183188116485706,
+        "potential_weighted_diff": -22.29802883278963,
+        "stability_weighted_diff": 22.792058644519212
+      },
+      {
+        "tree": "Lemon00_24",
+        "cap_diff_full_minus_no_kpi": 29.478685660976396,
+        "auc_diff_full_minus_no_kpi": 8.977546210531855,
+        "steps_full": 64,
+        "steps_no_kpi": 59,
+        "mean_ratio_increment_full": 0.004985608552631579,
+        "mean_ratio_increment_no_kpi": 0.005408117752007137,
+        "hierarchy_weighted_diff": -13.281304696764826,
+        "crowding_weighted_diff": 37.57551071928584,
+        "balance_weighted_diff": -2.354650776085802,
+        "light_weighted_diff": 8.136371048175885,
+        "potential_weighted_diff": 6.56221859938134,
+        "stability_weighted_diff": -7.159459233016064
+      },
+      {
+        "tree": "Lemon00_29",
+        "cap_diff_full_minus_no_kpi": -40.75462365657535,
+        "auc_diff_full_minus_no_kpi": 2.469304391974873,
+        "steps_full": 21,
+        "steps_no_kpi": 134,
+        "mean_ratio_increment_full": 0.015183740990192604,
+        "mean_ratio_increment_no_kpi": 0.0023795414984630198,
+        "hierarchy_weighted_diff": 30.021154770695254,
+        "crowding_weighted_diff": -39.43976471227728,
+        "balance_weighted_diff": -16.737252138585696,
+        "light_weighted_diff": 4.605857642706843,
+        "potential_weighted_diff": -13.5015252711988,
+        "stability_weighted_diff": -5.7030939479156215
+      },
+      {
+        "tree": "Lemon00_64",
+        "cap_diff_full_minus_no_kpi": -117.15456909660269,
+        "auc_diff_full_minus_no_kpi": -85.56408624057592,
+        "steps_full": 11,
+        "steps_no_kpi": 73,
+        "mean_ratio_increment_full": 0.029030939075916588,
+        "mean_ratio_increment_no_kpi": 0.004374525066234007,
+        "hierarchy_weighted_diff": -2.575691156658589,
+        "crowding_weighted_diff": 5.145380910220414,
+        "balance_weighted_diff": -50.70694466831778,
+        "light_weighted_diff": -25.569246125962245,
+        "potential_weighted_diff": -24.858422847279208,
+        "stability_weighted_diff": -18.589645208605276
+      },
+      {
+        "tree": "Lemon01_26",
+        "cap_diff_full_minus_no_kpi": -65.12801103193635,
+        "auc_diff_full_minus_no_kpi": 2.1122930678638028,
+        "steps_full": 15,
+        "steps_no_kpi": 101,
+        "mean_ratio_increment_full": 0.02128240109140518,
+        "mean_ratio_increment_no_kpi": 0.0031607526373374035,
+        "hierarchy_weighted_diff": 4.2170176220126905,
+        "crowding_weighted_diff": -0.07902175186588214,
+        "balance_weighted_diff": -84.54037143280846,
+        "light_weighted_diff": 44.95951486141941,
+        "potential_weighted_diff": -11.755068209108208,
+        "stability_weighted_diff": -17.93008212158588
+      },
+      {
+        "tree": "Lemon01_29",
+        "cap_diff_full_minus_no_kpi": -14.489845632021627,
+        "auc_diff_full_minus_no_kpi": -4.672301744617059,
+        "steps_full": 12,
+        "steps_no_kpi": 102,
+        "mean_ratio_increment_full": 0.026571546732837056,
+        "mean_ratio_increment_no_kpi": 0.003126064321510242,
+        "hierarchy_weighted_diff": 0.13616989724192954,
+        "crowding_weighted_diff": -16.66137845008604,
+        "balance_weighted_diff": 28.59024689546166,
+        "light_weighted_diff": 17.10565290067423,
+        "potential_weighted_diff": -9.643946622284846,
+        "stability_weighted_diff": -34.01659025302857
+      },
+      {
+        "tree": "Lemon01_34",
+        "cap_diff_full_minus_no_kpi": -14.54823058765703,
+        "auc_diff_full_minus_no_kpi": -18.064336537457947,
+        "steps_full": 13,
+        "steps_no_kpi": 80,
+        "mean_ratio_increment_full": 0.024574427236656853,
+        "mean_ratio_increment_no_kpi": 0.003993344425956739,
+        "hierarchy_weighted_diff": 18.080723571146773,
+        "crowding_weighted_diff": -12.545777652257577,
+        "balance_weighted_diff": -25.442346827988047,
+        "light_weighted_diff": 32.78480129872287,
+        "potential_weighted_diff": -11.458550455059164,
+        "stability_weighted_diff": -15.967080522221861
+      },
+      {
+        "tree": "Lemon01_35",
+        "cap_diff_full_minus_no_kpi": -16.397298912162114,
+        "auc_diff_full_minus_no_kpi": -32.2663790785609,
+        "steps_full": 9,
+        "steps_no_kpi": 48,
+        "mean_ratio_increment_full": 0.035381750465549346,
+        "mean_ratio_increment_no_kpi": 0.006634078212290503,
+        "hierarchy_weighted_diff": -7.749343934347378,
+        "crowding_weighted_diff": -12.497478186548959,
+        "balance_weighted_diff": 22.7753000432357,
+        "light_weighted_diff": 13.67889078980454,
+        "potential_weighted_diff": -0.892245689397353,
+        "stability_weighted_diff": -31.7124219349087
+      },
+      {
+        "tree": "Lemon02_28",
+        "cap_diff_full_minus_no_kpi": -18.179531262399962,
+        "auc_diff_full_minus_no_kpi": -6.575520340319116,
+        "steps_full": 12,
+        "steps_no_kpi": 90,
+        "mean_ratio_increment_full": 0.02657004830917874,
+        "mean_ratio_increment_no_kpi": 0.0035426731078904987,
+        "hierarchy_weighted_diff": 21.582793986878187,
+        "crowding_weighted_diff": -29.707631993074557,
+        "balance_weighted_diff": 6.769063008676647,
+        "light_weighted_diff": 19.93313576551802,
+        "potential_weighted_diff": -24.22915475700793,
+        "stability_weighted_diff": -12.527737273390295
+      },
+      {
+        "tree": "Lemon02_35",
+        "cap_diff_full_minus_no_kpi": -19.668021356200768,
+        "auc_diff_full_minus_no_kpi": -12.342384503660014,
+        "steps_full": 7,
+        "steps_no_kpi": 28,
+        "mean_ratio_increment_full": 0.04549082202713488,
+        "mean_ratio_increment_no_kpi": 0.01137270550678372,
+        "hierarchy_weighted_diff": -38.80178593260523,
+        "crowding_weighted_diff": 48.73543938196048,
+        "balance_weighted_diff": -14.844420677990195,
+        "light_weighted_diff": -0.5429452673051955,
+        "potential_weighted_diff": -21.776371356854803,
+        "stability_weighted_diff": 7.562062496594163
+      }
+    ]
+  },
+  "branch_kpi_counterfactual": {
+    "n_selected_action_states": 558,
+    "argmax_changed_fraction_when_kpi_zeroed": 0.7634408602150538,
+    "selected_action_top1_full": 0.035842293906810034,
+    "selected_action_top1_kpi_zeroed": 0.026881720430107527,
+    "mean_abs_candidate_logit_shift": 0.6544374185836278,
+    "mean_candidate_rank_correlation_full_vs_zeroed": 0.9630326527115127,
+    "note": "该反事实只判断Branch是否使用KPI输入；不包含所有候选动作的真实ΔK，不能替代候选级排序真值诊断。"
+  }
+}

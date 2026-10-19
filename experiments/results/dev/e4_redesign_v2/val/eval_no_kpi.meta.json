@@ -1,0 +1,10 @@
+{
+  "command": "evaluate_v2.py --checkpoint checkpoints_dt_e4_no_kpi_stop_v2/dt_stop_onpolicy_best.pt --exp e4_redesign_v2 --tag no_kpi",
+  "time": "2026-10-17 20:23:52",
+  "checkpoint": "d:\\PROJECTS\\latex-workflow\\experiments\\checkpoints_dt_e4_no_kpi_stop_v2/dt_stop_onpolicy_best.pt",
+  "target_return": 1251.3018798828125,
+  "stop_threshold": 0.5,
+  "n_trees": 31,
+  "diagnose_stop_continuation": false,
+  "minutes": 4.057163647810618
+}

@@ -1,0 +1,10 @@
+{
+  "command": "evaluate_v2.py --checkpoint checkpoints_dt_kpicandidate_no_kpi_v2/dt_best.pt --split model_val --exp kpi_candidate_gate_v2 --tag no_kpi_curve --diagnose-stop-continuation",
+  "time": "2026-10-18 18:54:38",
+  "checkpoint": "d:\\PROJECTS\\latex-workflow\\experiments\\checkpoints_dt_kpicandidate_no_kpi_v2/dt_best.pt",
+  "target_return": 1251.3018798828125,
+  "stop_threshold": 0.5,
+  "n_trees": 10,
+  "diagnose_stop_continuation": true,
+  "minutes": 4.978658533096313
+}

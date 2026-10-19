@@ -1,0 +1,10 @@
+{
+  "command": "evaluate_v2.py --checkpoint checkpoints_dt_kpifix_v2/dt_best.pt --split model_val --exp kpi_redesign_gate_v2 --tag full_curve --diagnose-stop-continuation",
+  "time": "2026-10-18 12:40:54",
+  "checkpoint": "d:\\PROJECTS\\latex-workflow\\experiments\\checkpoints_dt_kpifix_v2/dt_best.pt",
+  "target_return": 2199.9384765625,
+  "stop_threshold": 0.5,
+  "n_trees": 10,
+  "diagnose_stop_continuation": true,
+  "minutes": 0.7773252924283346
+}

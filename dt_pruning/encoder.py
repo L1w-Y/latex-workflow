@@ -23,11 +23,15 @@ from torch_geometric.nn import TransformerConv, global_max_pool, global_mean_poo
 from torch_geometric.utils import to_dense_batch
 
 from config import CFG
+from reward import (KPI_KEYS, TreeContext, branch_context, branch_rule_features,
+                    compute_branch_props, compute_kpis, detect_crossing)
 from tree_data import BRANCH, build_parent_map
 
 BRANCH_FEAT_DIM = 20
+BRANCH_FEAT_DIM_V2 = 30
 EDGE_FEAT_DIM = 4
 GLOBAL_FEAT_DIM = 2            # [当前累计剪枝比, 当前分枝数/1000]
+GLOBAL_FEAT_DIM_V2 = 8         # v1 两项 + 六维 KPI
 SPATIAL_RADIUS_FACTOR = 2.0
 MAX_SPATIAL_PER_NODE = 16
 
@@ -37,7 +41,9 @@ MAX_SPATIAL_PER_NODE = 16
 # ==============================================================================
 
 def graph_arrays(sk: np.ndarray, parent_map: dict[int, int] | None = None,
-                 pruning_ratio: float = 0.0) -> dict:
+                 pruning_ratio: float = 0.0, schema_version: int = 1,
+                 tree_context: TreeContext | None = None,
+                 kpis: dict[str, float] | None = None) -> dict:
     """骨架 [N,6] → 分支级图的 numpy 数组。
 
     返回 {"x": [M,F] float32, "edge_index": [2,E] int64,
@@ -164,6 +170,21 @@ def graph_arrays(sk: np.ndarray, parent_map: dict[int, int] | None = None,
         min_d / cfg.d_cross,
     ], axis=1).astype(np.float32)
 
+    if schema_version == 2:
+        props = compute_branch_props(sk, pmap)
+        crossing = detect_crossing(props, cfg)
+        canopy_center, avg_len, avg_r = branch_context(sk, props, cfg)
+        rules = branch_rule_features(
+            props, crossing, canopy_center, avg_len, avg_r, cfg)
+        rule_x = np.stack([
+            rules.get(int(b), np.zeros(BRANCH_FEAT_DIM_V2 - BRANCH_FEAT_DIM,
+                                       dtype=np.float32))
+            for b in unique_bids
+        ])
+        x = np.concatenate([x, rule_x], axis=1).astype(np.float32)
+    elif schema_version != 1:
+        raise ValueError(f"不支持 graph schema={schema_version}")
+
     def _cos(i, j):
         return np.sum(vec[i] * vec[j], axis=1)
 
@@ -179,7 +200,13 @@ def graph_arrays(sk: np.ndarray, parent_map: dict[int, int] | None = None,
     attr[2 * n_t:, 2] = np.tile(s_d / cfg.d_cross, 2)
     attr[2 * n_t:, 3] = np.tile(s_cos, 2)
 
-    g = np.array([pruning_ratio, m / 1000.0], dtype=np.float32)
+    global_values = [pruning_ratio, m / 1000.0]
+    if schema_version == 2:
+        if kpis is None:
+            ctx = tree_context or TreeContext(sk, cfg)
+            kpis = compute_kpis(sk, props, cfg, ctx)
+        global_values.extend(float(kpis[k]) for k in KPI_KEYS)
+    g = np.asarray(global_values, dtype=np.float32)
     return {"x": x, "edge_index": np.stack([src, dst]).astype(np.int64),
             "edge_attr": attr, "g": g, "bids": unique_bids, "root": root}
 
